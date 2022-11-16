@@ -1,4 +1,4 @@
-package org.example;
+package org.example.nonreactive.kafka;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.support.KafkaHeaders;

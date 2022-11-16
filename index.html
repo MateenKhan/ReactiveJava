@@ -1,12 +1,10 @@
-
-
 <!doctype html>
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style id="ao_optimized_gfonts" media="print" onload="this.onload=null;this.media='all';">/* cyrillic-ext */
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style id="ao_optimized_gfonts" media="print" onload="this.onload=null;this.media='all';">/* cyrillic-ext */
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -312,62 +310,86 @@
   src: url(/fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevW.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-</style><link rel="apple-touch-icon" sizes="57x57" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/manifest.json">
-<link rel="mask-icon" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/safari-pinned-tab.svg" color="#63b175">
-<link rel="shortcut icon" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="https://www.baeldung.com/wp-content/themes/baeldung/favicon/mstile-144x144.png">
-<meta name="msapplication-config" content="https://www.baeldung.com/wp-content/themes/baeldung/favicon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-<meta name="excerpt" content="A quick and practical overview of reactive systems in Java.">
 
-<link media="all" href="https://www.baeldung.com/wp-content/cache/autoptimize/1/css/autoptimize_ef4b4557b33154cbdf0592426d6d420f.css" rel="stylesheet" /><title>Reactive Systems in Java | Baeldung</title>
+    </style>
+    <link rel="apple-touch-icon" sizes="57x57"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png"
+          href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/manifest.json">
+    <link rel="mask-icon" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/safari-pinned-tab.svg"
+          color="#63b175">
+    <link rel="shortcut icon" href="https://www.baeldung.com/wp-content/themes/baeldung/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage"
+          content="https://www.baeldung.com/wp-content/themes/baeldung/favicon/mstile-144x144.png">
+    <meta name="msapplication-config"
+          content="https://www.baeldung.com/wp-content/themes/baeldung/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="excerpt" content="A quick and practical overview of reactive systems in Java.">
 
-<meta name="description" content="A quick and practical overview of reactive systems in Java." />
-<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<link rel="canonical" href="https://www.baeldung.com/java-reactive-systems" />
-<meta name="generator" content="All in One SEO (AIOSEO) 4.2.6.1 " />
-<meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="Baeldung" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Reactive Systems in Java | Baeldung" />
-<meta property="og:description" content="A quick and practical overview of reactive systems in Java." />
-<meta property="og:url" content="https://www.baeldung.com/java-reactive-systems" />
-<meta property="og:image" content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg" />
-<meta property="og:image:secure_url" content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg" />
-<meta property="og:image:width" content="952" />
-<meta property="og:image:height" content="498" />
-<meta property="article:published_time" content="2020-07-14T16:10:35+00:00" />
-<meta property="article:modified_time" content="2020-08-13T16:51:03+00:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@baeldung" />
-<meta name="twitter:title" content="Reactive Systems in Java | Baeldung" />
-<meta name="twitter:description" content="A quick and practical overview of reactive systems in Java." />
-<meta name="twitter:creator" content="@kchandrakant" />
-<meta name="twitter:image" content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg" />
+    <link media="all"
+          href="https://www.baeldung.com/wp-content/cache/autoptimize/1/css/autoptimize_ef4b4557b33154cbdf0592426d6d420f.css"
+          rel="stylesheet"/>
+    <title>Reactive Systems in Java | Baeldung</title>
 
-<link rel='dns-prefetch' href='//s.w.org' />
-<link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' />
-<style id='global-styles-inline-css' type='text/css'>
+    <meta name="description" content="A quick and practical overview of reactive systems in Java."/>
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <link rel="canonical" href="https://www.baeldung.com/java-reactive-systems"/>
+    <meta name="generator" content="All in One SEO (AIOSEO) 4.2.6.1 "/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:site_name" content="Baeldung"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Reactive Systems in Java | Baeldung"/>
+    <meta property="og:description" content="A quick and practical overview of reactive systems in Java."/>
+    <meta property="og:url" content="https://www.baeldung.com/java-reactive-systems"/>
+    <meta property="og:image" content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg"/>
+    <meta property="og:image:secure_url"
+          content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg"/>
+    <meta property="og:image:width" content="952"/>
+    <meta property="og:image:height" content="498"/>
+    <meta property="article:published_time" content="2020-07-14T16:10:35+00:00"/>
+    <meta property="article:modified_time" content="2020-08-13T16:51:03+00:00"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@baeldung"/>
+    <meta name="twitter:title" content="Reactive Systems in Java | Baeldung"/>
+    <meta name="twitter:description" content="A quick and practical overview of reactive systems in Java."/>
+    <meta name="twitter:creator" content="@kchandrakant"/>
+    <meta name="twitter:image" content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg"/>
+
+    <link rel='dns-prefetch' href='//s.w.org'/>
+    <link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect'/>
+    <style id='global-styles-inline-css' type='text/css'>
 body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-</style>
-<style id='wpdiscuz-frontend-css-inline-css' type='text/css'>
+
+    </style>
+    <style id='wpdiscuz-frontend-css-inline-css' type='text/css'>
  #wpdcom .wpd-blog-administrator .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-administrator .wpd-comment-author, #wpdcom .wpd-blog-administrator .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-administrator{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-administrator .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-administrator .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-author .wpd-comment-author, #wpdcom .wpd-blog-author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contributor .wpd-comment-author, #wpdcom .wpd-blog-contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-editor .wpd-comment-author, #wpdcom .wpd-blog-editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-editor{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-subscriber .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-subscriber .wpd-comment-author, #wpdcom .wpd-blog-subscriber .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-subscriber .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-subscriber .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom .wpd-blog-new2visualjunior .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2visualjunior .wpd-comment-author, #wpdcom .wpd-blog-new2visualjunior .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2visualjunior .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2visualjunior .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2visualjunior .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2visualjunior .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2visualmid .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2visualmid .wpd-comment-author, #wpdcom .wpd-blog-new2visualmid .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2visualmid .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2visualmid .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2visualmid .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2visualmid .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2visualsenior .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2visualsenior .wpd-comment-author, #wpdcom .wpd-blog-new2visualsenior .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2visualsenior .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2visualsenior .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2visualsenior .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2visualsenior .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2teamjunior .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2teamjunior .wpd-comment-author, #wpdcom .wpd-blog-new2teamjunior .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2teamjunior .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2teamjunior .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2teamjunior .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2teamjunior .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2teammid .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2teammid .wpd-comment-author, #wpdcom .wpd-blog-new2teammid .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2teammid .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2teammid .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2teammid .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2teammid .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2teamsenior .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2teamsenior .wpd-comment-author, #wpdcom .wpd-blog-new2teamsenior .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2teamsenior .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2teamsenior .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2teamsenior .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2teamsenior .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2marketingjunior .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2marketingjunior .wpd-comment-author, #wpdcom .wpd-blog-new2marketingjunior .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2marketingjunior .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2marketingjunior .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2marketingjunior .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2marketingjunior .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2marketingmid .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2marketingmid .wpd-comment-author, #wpdcom .wpd-blog-new2marketingmid .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2marketingmid .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2marketingmid .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2marketingmid .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2marketingmid .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2marketingsenior .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2marketingsenior .wpd-comment-author, #wpdcom .wpd-blog-new2marketingsenior .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2marketingsenior .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2marketingsenior .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2marketingsenior .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2marketingsenior .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-javauxdev .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-javauxdev .wpd-comment-author, #wpdcom .wpd-blog-javauxdev .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-javauxdev .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-javauxdev .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-javauxdev .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-javauxdev .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contenteditor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contenteditor .wpd-comment-author, #wpdcom .wpd-blog-contenteditor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contenteditor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contenteditor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contenteditor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contenteditor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-javacommunitymanager .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-javacommunitymanager .wpd-comment-author, #wpdcom .wpd-blog-javacommunitymanager .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-javacommunitymanager .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-javacommunitymanager .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-javacommunitymanager .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-javacommunitymanager .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2author .wpd-comment-author, #wpdcom .wpd-blog-new2author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2contributor .wpd-comment-author, #wpdcom .wpd-blog-new2contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-new2editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-new2editor .wpd-comment-author, #wpdcom .wpd-blog-new2editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-new2editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-new2editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-new2editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-new2editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-custom_permalinks_manager .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-custom_permalinks_manager .wpd-comment-author, #wpdcom .wpd-blog-custom_permalinks_manager .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-custom_permalinks_manager .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-custom_permalinks_manager .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-custom_permalinks_manager .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-custom_permalinks_manager .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-backwpup_admin .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-backwpup_admin .wpd-comment-author, #wpdcom .wpd-blog-backwpup_admin .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-backwpup_admin .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-backwpup_admin .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-backwpup_admin .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-backwpup_admin .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-backwpup_check .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-backwpup_check .wpd-comment-author, #wpdcom .wpd-blog-backwpup_check .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-backwpup_check .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-backwpup_check .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-backwpup_check .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-backwpup_check .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-backwpup_helper .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-backwpup_helper .wpd-comment-author, #wpdcom .wpd-blog-backwpup_helper .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-backwpup_helper .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-backwpup_helper .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-backwpup_helper .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-backwpup_helper .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-multisite-test .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-multisite-test .wpd-comment-author, #wpdcom .wpd-blog-multisite-test .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-multisite-test .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-multisite-test .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-multisite-test .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-multisite-test .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-aammanager .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-aammanager .wpd-comment-author, #wpdcom .wpd-blog-aammanager .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-aammanager .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-aammanager .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-aammanager .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-aammanager .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-automation .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-automation .wpd-comment-author, #wpdcom .wpd-blog-automation .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-automation .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-automation .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-automation .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-automation .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-post_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-post_author .wpd-comment-author, #wpdcom .wpd-blog-post_author .wpd-comment-author a{color:#00B38F}#wpdcom .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-post_author{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-post_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-post_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-guest .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-guest .wpd-comment-author, #wpdcom .wpd-blog-guest .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-guest .wpd-comment-subheader{border-top:1px dashed #00B38F}#comments, #respond, .comments-area, #wpdcom{}#wpdcom .ql-editor > *{color:#777777}#wpdcom .ql-editor::before{}#wpdcom .ql-toolbar{border:1px solid #DDDDDD;border-top:none}#wpdcom .ql-container{border:1px solid #DDDDDD;border-bottom:none}#wpdcom .wpd-form-row .wpdiscuz-item input[type="text"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="email"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="url"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="color"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="date"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime-local"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="month"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="number"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="time"], #wpdcom textarea, #wpdcom select{border:1px solid #DDDDDD;color:#777777}#wpdcom .wpd-form-row .wpdiscuz-item textarea{border:1px solid #DDDDDD}#wpdcom input::placeholder, #wpdcom textarea::placeholder, #wpdcom input::-moz-placeholder, #wpdcom textarea::-webkit-input-placeholder{}#wpdcom .wpd-comment-text{color:#777777}#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpd-thread-info.wpd-reviews-tab svg{fill:#00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings:hover{color:#00B38F}#wpdcom .wpd-comment .wpd-follow-link:hover{color:#00B38F}#wpdcom .wpd-comment-status .wpd-sticky{color:#00B38F}#wpdcom .wpd-thread-filter .wpdf-active{color:#00B38F;border-bottom-color:#00B38F}#wpdcom .wpd-comment-info-bar{border:1px dashed #33c3a6;background:#e6f8f4}#wpdcom .wpd-comment-info-bar .wpd-current-view i{color:#00B38F}#wpdcom .wpd-filter-view-all:hover{background:#00B38F}#wpdcom .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}#wpdcom .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover, .wpdiscuz-rating:not(:checked) > label:hover ~ label{}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color:#FFED85}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{color:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts:hover svg .wpd-star{fill:#FFED85}#wpd-post-rating.wpd-not-rated .wpd-rating-wrap .wpd-rate-starts svg:hover ~ svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpdcom .wpd-comment .wpd-follow-active{color:#ff7a00}#wpdcom .page-numbers{color:#555;border:#555 1px solid}#wpdcom span.current{background:#555}#wpdcom.wpd-layout-1 .wpd-new-loaded-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap > .wpd-comment-right{background:transparent}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap{background:#FFFAD6}#wpdcom.wpd-layout-3 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom .wpd-follow:hover i, #wpdcom .wpd-unfollow:hover i, #wpdcom .wpd-comment .wpd-follow-active:hover i{color:#00B38F}#wpdcom .wpdiscuz-readmore{cursor:pointer;color:#00B38F}.wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}.wpd-wrapper .wpd-list-item.wpd-active{border-top:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-wrap{border-left:3px solid #FFFAD6}#wpdcom.wpd-layout-3 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-right{border-left:1px solid #FFFAD6}#wpdcom .wpd-prim-button{background-color:#07B290;color:#FFFFFF}#wpdcom .wpd_label__check i.wpdicon-on{color:#07B290;border:1px solid #83d9c8}#wpd-bubble-wrapper #wpd-bubble-all-comments-count{color:#1DB99A}#wpd-bubble-wrapper > div{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}#wpd-bubble-wrapper.wpd-right-corner > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}.wpd-inline-icon-wrapper path.wpd-inline-icon-first{fill:#1DB99A}.wpd-inline-icon-count{background-color:#1DB99A}.wpd-inline-icon-count::before{border-right-color:#1DB99A}.wpd-inline-form-wrapper::before{border-bottom-color:#1DB99A}.wpd-inline-form-question{background-color:#1DB99A}.wpd-inline-form{background-color:#1DB99A}.wpd-last-inline-comments-wrapper{border-color:#1DB99A}.wpd-last-inline-comments-wrapper::before{border-bottom-color:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments{background:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:hover,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:active,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:focus{background-color:#1DB99A}#wpdcom .ql-snow .ql-tooltip[data-mode="link"]::before{content:"Enter link:"}#wpdcom .ql-snow .ql-tooltip.ql-editing a.ql-action::after{content:"Save"}.comments-area{width:auto}
-</style>
-<style id='wpbs-style-inline-css' type='text/css'>
+
+    </style>
+    <style id='wpbs-style-inline-css' type='text/css'>
 #wrap a  { color: #267438; }
  #wrap a:link, #wrap a:visited   { color: #267438; }
  body.home #wrap a:link,body.home #wrap a:visited   { color: #63b175; }
@@ -451,27 +473,33 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
  #wrap .sublogo-container  { background-color: #63b175; } 
  #wrap .content-info a  { color: rgba(255, 255, 255, 0.5);	}
  #wrap .content-info a:hover  { color: rgba(255, 255, 255, 1);	}
-</style>
-<script type='text/javascript' src='https://www.baeldung.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script type='text/javascript' src='https://www.baeldung.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-<script type='text/javascript' id='ba_big_menu_scripts-js-extra'>
+
+    </style>
+    <script type='text/javascript' src='https://www.baeldung.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
+            id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://www.baeldung.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
+            id='jquery-migrate-js'></script>
+    <script type='text/javascript' id='ba_big_menu_scripts-js-extra'>
 /* <![CDATA[ */
 var ajax_object = {"ajax_url":"https:\/\/www.baeldung.com\/wp-admin\/admin-ajax.php"};
 var bigmenu_settings = {"loading_delay":"4000","subsite_slug":"baeldung","referral_id":"83032","version":"1.9.7","cache_version":"1668367361"};
 /* ]]> */
-</script>
-<script type='text/javascript' id='qc-choice-js-extra'>
+
+    </script>
+    <script type='text/javascript' id='qc-choice-js-extra'>
 /* <![CDATA[ */
 var choice_cmp_config = {"utid":"8de23B0-UzMb6","ccpa":"","datalayer":""};
 /* ]]> */
-</script>
-<script type='text/javascript' id='getTemplateUrlScript-js-extra'>
+
+    </script>
+    <script type='text/javascript' id='getTemplateUrlScript-js-extra'>
 /* <![CDATA[ */
 var getTemplateUrl = {"templateUrl":"https:\/\/www.baeldung.com\/wp-content\/themes\/baeldung"};
 /* ]]> */
-</script>
 
-<style>
+    </script>
+
+    <style>
 
 .short_box.short_box-announcement{
   background-color: #f2f2f2;
@@ -500,10 +528,11 @@ var getTemplateUrl = {"templateUrl":"https:\/\/www.baeldung.com\/wp-content\/the
   font-weight: bold;
 }
 	
-</style>
+
+    </style>
 
 
-<style>
+    <style>
 /* PPP Message BAEL-12093 */
 
 .ppp-message {
@@ -523,10 +552,11 @@ var getTemplateUrl = {"templateUrl":"https:\/\/www.baeldung.com\/wp-content\/the
 .ppp-message-container.dark-text .ppp-message p{
 	color: rgb(51, 51, 51) !important;
 }
-</style>
+
+    </style>
 
 
-<style>
+    <style>
 .discount-image{
     border-radius:5px 5px 0px 0px !important; 
     margin-bottom:0px !important;
@@ -567,10 +597,11 @@ var getTemplateUrl = {"templateUrl":"https:\/\/www.baeldung.com\/wp-content\/the
     margin-top:0px !important;
     padding-top:0px !important;
 }
-</style>
+
+    </style>
 
 
-<style>
+    <style>
 .price-banner {
     width: 250px;     border: none;     background-color: #485368;    border-radius: 10px;    color: white;    padding-bottom: 20px;
 }
@@ -654,10 +685,11 @@ var getTemplateUrl = {"templateUrl":"https:\/\/www.baeldung.com\/wp-content\/the
 .price-banner a.optin .optin-button {
     font-size: 18px;    color: white;    font-family: 'Raleway';    font-weight: bold;
 }
-</style>
+
+    </style>
 
 
-<style>
+    <style>
 .footer-html-banner {
     margin: 0 auto;
     max-width: 800px;
@@ -822,10 +854,11 @@ font-weight: normal;
 }
 
 
-</style>
+
+    </style>
 
 
-<style>
+    <style>
 .html-banner {
     width: 300px;     border: none;    background-color: rgb(222, 222, 222);    border-radius: 8px;    color: white; padding-bottom:15px;
 }
@@ -938,10 +971,11 @@ div.jw-banner {
  padding: 20px 40px;
 }
 
-</style>
+
+    </style>
 
 
-<script>
+    <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -949,14 +983,15 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '512471148948613');
-fbq('track', "PageView");</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=512471148948613&ev=PageView&noscript=1"
-/></noscript>
+fbq('track', "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=512471148948613&ev=PageView&noscript=1"
+    /></noscript>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26064837-1"></script>
-<script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26064837-1"></script>
+    <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -966,12 +1001,12 @@ src="https://www.facebook.com/tr?id=512471148948613&ev=PageView&noscript=1"
   setTimeout("gtag('event', 'more than 2.5 minutes', {'event_category': 'Time on page','non_interaction': true});", 150000);
   
   gtag('config', 'UA-26064837-1');
-</script>
+
+    </script>
 
 
-
-<link rel='stylesheet' href='https://a.pub.network/core/pubfig/cls.css'>
-<script data-cfasync='false' type='text/javascript'>
+    <link rel='stylesheet' href='https://a.pub.network/core/pubfig/cls.css'>
+    <script data-cfasync='false' type='text/javascript'>
         var freestar = freestar || {};
         freestar.hitTime = Date.now();
         freestar.queue = freestar.queue || [];
@@ -983,366 +1018,326 @@ src="https://www.facebook.com/tr?id=512471148948613&ev=PageView&noscript=1"
       });
         !function(a,b){var c=b.getElementsByTagName('script')[0],d=b.createElement('script'),e='https://a.pub.network/baeldung-com';e+=freestar.debug?'/qa/pubfig.min.js':'/pubfig.min.js',d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
         freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
-      </script> </head>
-<body class="post-template-default single single-post postid-83032 single-format-standard site-baeldung elementor-default elementor-kit-82519">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div id="fvp" data-attribute-tags="" data-attribute-categories="Architecture,Reactive" data-attribute-sitename="Baeldung" hidden></div>
-<div id="wrap">
-<nav class="header--menu">
-<div class="container">
-<div class="container-inner">
-<a class="nav--logo_mobile" href="/" title="Baeldung">
-<img alt="The Baeldung logo" style="width:180px;height:40px" src="https://www.baeldung.com/wp-content/themes/baeldung/icon/logo.svg">
-</a>
-<a href="#" class="menu-mobile" title="Navigation" onclick="veggieBurger.reset().play();">
-<svg version="1.1" id="veggieBurger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
-<line style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;" x1="2.5" y1="17.5" x2="32.5" y2="17.5" />
-<line style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;" x1="2.5" y1="6.5" x2="32.5" y2="6.5" />
-<line style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;" x1="2.5" y1="28.5" x2="32.5" y2="28.5" />
-</svg>
-</a>
-</div>
-</div>
-<div class="container menu-container">
-<div class="container-inner">
-<ul id="menu-main-menu" class="nav--menu"><li class="big-nav-icon nav--menu_item">
-<a class="nav--menu_item_anchor menu-not-loaded" aria-label="Tutorials" title="Tutorials" href="#" onclick="javascript:ga('send', 'event', 'menu', 'click', 'new_menu_open');">
-<svg id="BigNavIcon" aria-label="Tutorials" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#menu-icon"></svg>
-</a><li class="nav--logo"><a href="/" title="Baeldung"><img src="https://www.baeldung.com/wp-content/themes/baeldung/icon/logo.svg" style="width:180px;height:40px" alt="The Baeldung Logo"></a><li class="no-interstitial-ads nav--menu_item  menu-start-here"><a class="nav--menu_item_anchor" href="/start-here" data-google-interstitial="false">Start Here</a><li class="no-interstitial-ads nav--menu_item nav--menu_item_darkened nav--menu_has_6_children menu-courses"><a id="menu-item-17021" class="nav--menu_item_anchor nav--menu_item_withDropdown" data-google-interstitial="false" href="javascript:void(0)">Courses&nbsp;<span class="menu--item_normal">▼</span><span class="menu--item_active">▲</span></a>
-<div class="nav--dropdown">
-<ul class="nav--dropdown_content">
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/rest-with-spring-course" title="The &#8220;REST With Spring&#8221; Course">
-<div class="dropdown--item_icon">
-<svg id="RwsCourseAnimated" aria-label="REST with Spring" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#rws-course-animated"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-REST with Spring
-</h3>
-<p class="dropdown--item_excerpt">
-The canonical reference for building a production grade API with Spring
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item inner-dropdown">
-<a id="menu-item-67162" class="dropdown--item_anchor transition--background nav--menu_item_withDropdown" href="/learn-spring-security-course" title="">
-<div class="dropdown--item_icon">
-<svg id="LssCourseAnimated" aria-label="Learn Spring Security" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#lss-course-animated"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Learn Spring Security&nbsp;<span class="dropdown--item_normal">▼</span><span class="dropdown--item_active">▲</span>
-</h3>
-<p class="dropdown--item_excerpt">
-THE unique Spring Security education if you’re working with Java today
-</p>
-</div>
-</a>
-<div class="nav--dropdown">
-<ul class="nav--dropdown_content">
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/learn-spring-security-core-course" title="">
-<div class="dropdown--item_icon">
-<svg id="LsscNewIcon" aria-label="Learn Spring Security Core" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#lssc-new-icon"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Learn Spring Security Core
-</h3>
-<p class="dropdown--item_excerpt">
-Focus on the Core of Spring Security 5
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/learn-spring-security-oauth-course" title="">
-<div class="dropdown--item_icon">
-<svg id="LssoNewIcon" aria-label="Learn Spring Security OAuth" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#lsso-new-icon"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Learn Spring Security OAuth
- </h3>
-<p class="dropdown--item_excerpt">
-Focus on the new OAuth2 stack in Spring Security 5
-</p>
-</div>
-</a>
-</li>
-</ul></div></li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/learn-spring-course" title="">
-<div class="dropdown--item_icon">
-<svg id="LsAnimated" aria-label="Learn Spring" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#ls-animated"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Learn Spring
-</h3>
-<p class="dropdown--item_excerpt">
-From no experience to actually building stuff​
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/learn-spring-data-jpa-course" title="">
-<div class="dropdown--item_icon">
-<svg id="LsdCourse" aria-label="Learn Spring Data JPA" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#lsd-course"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Learn Spring Data JPA
-</h3>
-<p class="dropdown--item_excerpt">
-The full guide to persistence with Spring Data JPA
-</p>
-</div>
-</a>
-</li>
-</div><li class="nav--menu_item  nav--menu_has_3_children menu-guides"><a id="menu-item-39050" class="nav--menu_item_anchor nav--menu_item_withDropdown" href="javascript:void(0)">Guides&nbsp;<span class="menu--item_normal">▼</span><span class="menu--item_active">▲</span></a>
-<div class="nav--dropdown">
-<ul class="nav--dropdown_content">
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/persistence-with-spring-series" title="">
-<div class="dropdown--item_icon">
-<svg id="PersistenceGuideSvg" aria-label="Persistence" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#persistence-guide-svg"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Persistence
-</h3>
-<p class="dropdown--item_excerpt">
-The Persistence with Spring guides
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/rest-with-spring-series" title="">
-<div class="dropdown--item_icon">
-<svg id="RestGuideSvg" aria-label="REST" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#rest-guide-svg"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-REST
-</h3>
-<p class="dropdown--item_excerpt">
-The guides on building REST APIs with Spring
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/security-spring" title="">
-<div class="dropdown--item_icon">
-<svg id="SecurityGuideSvg" aria-label="Security" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#security-guide-svg"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Security
-</h3>
-<p class="dropdown--item_excerpt">
-The Spring Security guides
-</p>
-</div>
-</a>
-</li>
-</div><li class="no-interstitial-ads nav--menu_item  nav--menu_has_4_children menu-about"><a id="menu-item-6138" class="nav--menu_item_anchor nav--menu_item_withDropdown" data-google-interstitial="false" href="javascript:void(0)">About&nbsp;<span class="menu--item_normal">▼</span><span class="menu--item_active">▲</span></a>
-<div class="nav--dropdown">
-<ul class="nav--dropdown_content">
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/full_archive" title="">
-<div class="dropdown--item_icon">
-<svg id="FullArchiveSvg" aria-label="Full Archive" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#full-archive-svg"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Full Archive
-</h3>
-<p class="dropdown--item_excerpt">
-The high level overview of all the articles on the site.
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/baeldung-ebooks" title="">
-<div class="dropdown--item_icon">
-<svg id="BaeldungEbooks" aria-label="Baeldung Ebooks" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#baeldung-ebooks"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Baeldung Ebooks
-</h3>
-<p class="dropdown--item_excerpt">
-Discover all of our eBooks
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/contribution-guidelines" title="">
-<div class="dropdown--item_icon">
-<svg id="ContributeToBaeldungSvgNew" aria-label="Write for Baeldung" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#contribute-to-baeldung-svg-new"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-Write for Baeldung
-</h3>
-<p class="dropdown--item_excerpt">
-Become a writer on the site
-</p>
-</div>
-</a>
-</li>
-<li class="nav--dropdown_item">
-<a class="dropdown--item_anchor transition--background" href="/about" title="">
-<div class="dropdown--item_icon">
-<svg id="AboutBaeldungSvg" aria-label="About Baeldung" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#about-baeldung-svg"></svg>
-</div>
-<div class="dropdown--item_text">
-<h3 class="dropdown--item_title">
-About Baeldung
-</h3>
-<p class="dropdown--item_excerpt">
-About Baeldung.
-</p>
-</div>
-</a>
-</li>
-</div><li class="no-interstitial-ads nav--menu_item  menu-rss"><a id="menu-item-18864" class="nav--menu_item_anchor" data-google-interstitial="false" title="RSS" aria-label="RSS" href="/feed"><svg id="RssSvg" aria-label="RSS" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#rss-svg"></svg></a><li class="nav--menu_item  menu-search"><a id="menu-item-40489" class="nav--menu_item_anchor" title="search" aria-label="search" href="#search"><svg id="Search" aria-label="search" data-src="/wp-content/uploads/aqua-svg-sprite/aqua-svg-general-sprite.svg#search"></svg></a></ul>
-</div>
-</div>
-</nav>
-<div id="big-nav" class="inactive menu-not-loaded"></div>
-<div id="content" class="container">
-<div class="container-inner">
-<div class="flex-wrap">
-<div id="main" class="flex-col clearfix" role="main">
-<div id="toc-contents"></div>
-<article id="post-83032" class="clearfix post-83032 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture category-reactive" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="https://google.com/article" />
-<meta itemprop="datePublished" content="2020-07-14T18:10:35+0200" />
-<meta itemprop="dateModified" content="2020-08-13T18:51:03+0200" />
-<header>
-<div class="page-header"><h1 class="single-title entry-title" itemprop="headline">Reactive Systems in Java</h1>
-<p class="post-modified">Last modified: <span class="updated">August 13, 2020</span></p>
-<div class="meta-row">
-<div class="author vcard" itemprop="author" itemscope itemtype="https://schema.org/Person">
-<span class="author-by"> by </span>
-<span class="author-name fn" itemprop="name">
-<a href="https://www.baeldung.com/author/kumar-chandrakant" title="Posts by Kumar Chandrakant" rel="author">Kumar Chandrakant</a> </span>
-</div>
-<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-<meta itemprop="url" content="https://www.baeldung.com/wp-content/uploads/2017/08/On-Baeldung-1.jpg">
-<meta itemprop="width" content="208">
-<meta itemprop="height" content="208">
-</span>
-<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-<meta itemprop="url" content="https://www.baeldung.com/wp-content/themes/baeldung/icon/schema-logo.png">
-<meta itemprop="width" content="300">
-<meta itemprop="height" content="300">
-</span>
-<meta itemprop="name" content="Baeldung">
-</span>
-<ul class="categories">
-<li><a href="https://www.baeldung.com/category/architecture" rel="category tag">Architecture</a></li><li><a href="https://www.baeldung.com/category/reactive" rel="category tag">Reactive</a></li> </ul>
-<ul class="post-tags">
-</ul>
-</div>
-</div>
-</header> 
-<div class='before-post-widgets'>
-<div data-sticky-weight="1" data-event-label-on-display="expand-author-java-4" data-height-limit="0" data-stickyness="sticky" tag-data-expand-audience="admin-author-java,+4,1" class="before-post-content-widget"><span style="display:none;">Expand Authors Top</span> <div class="textwidget"><p style="border: thin dotted black;padding: 3mm">If you have a few years of experience in the Java ecosystem and you&#8217;d like to share that with the community, have a look at our <a href="/expand-java-contribution-guidelines"><strong>Contribution Guidelines</strong></a>.</p></div>
-</div><div data-sticky-weight="1" data-event-label-on-display="BF-2022" data-height-limit="0" data-stickyness="sticky" data-geoloc-excluded="US CA DE GB FR DK FI IS NO SE FO GL" class="before-post-content-widget"><span style="display:none;">November Discount Launch 2022 &#8211; Top</span> <div class="textwidget"><div class="short_box short_start">
-We’re finally running a Black Friday launch. All Courses are <strong>30% off</strong> until <strong>December 2nd:</strong>
-<h3><strong><a href="/all-courses">&gt;&gt; GET ACCESS NOW</a></strong></h3>
-</div></div>
-</div> </div>
 
-<div class='geo-targeting-widgets'>
-<div data-sticky-weight="1" data-event-label-on-display="BF-2022" data-height-limit="0" data-stickyness="sticky" data-geoloc-targets="US CA DE GB FR DK FI IS NO SE FO GL" class="geotargeting-widget"><span style="display:none;">November Discount Launch 2022 &#8211; TEMP TOP (NPI)</span> <div class="textwidget"><div class="short_box short_start"> 
-We’re finally running a Black Friday launch. All Courses are <strong>30% off</strong> until <strong>December 2nd:</strong>
-<h3><strong><a href="/all-courses">&gt;&gt; GET ACCESS NOW</a></strong></h3>
-</div></div>
-</div> </div>
-<section class="post-content clearfix" itemprop="articleBody">
-<h2 id="bd-introduction" data-id="introduction">1. Introduction</h2>
-<div class="bd-anchor" id="introduction"></div>
-<p>In this tutorial, we'll understand the basics of creating reactive systems in Java using Spring and other tools and frameworks.</p>
-<p>In the process, we'll discuss how reactive programming is just a driver towards creating a reactive system. This will help us understand the rationale for creating reactive systems and different specifications, libraries, and standards it has inspired along the way.</p>
-<h2 id="bd-what_are_reactive_systems" data-id="what_are_reactive_systems">2. What Are Reactive Systems?</h2>
-<div class="bd-anchor" id="what_are_reactive_systems"></div>
-<p>Over the last few decades, the technology landscape has seen several disruptions that have led to a complete transformation in the way we see value in technology. The computing world before the Internet could never have imagined the ways and means in which it will change our current day.</p>
-<p>With the reach of the Internet to the masses and the ever-evolving experience it promises, application architects need to be on their toes to meet their demand.</p>
-<p>Fundamentally, this means that we can never design an application in the way we used to earlier. A <strong>highly responsive application is no longer a luxury but a necessity</strong>.</p>
-<p>That, too, is in the face of random failures and unpredictable load. The need of the hour is not just to get the correct result but get to get it fast! It's quite important to drive the amazing user experiences we promise to deliver.</p>
-<p>This is what creates the need for an architectural style that can give us Reactive Systems.</p>
-<h3 id="bd-1-reactive-manifesto" data-id="1-reactive-manifesto">2.1. Reactive Manifesto</h3>
-<div class="bd-anchor" id="1-reactive-manifesto"></div>
-<p>Back in the year 2013, <strong>a team of developers, lead by Jonas Boner came together to define a set of core principles</strong> in a document known as <a href="https://www.reactivemanifesto.org/">the Reactive Manifesto</a>. This is what laid the foundation for an architecture style to create Reactive Systems. Since then, this manifesto has gathered a lot of interest from the developer community.</p>
-<p>Basically, this document prescribes <strong>the recipe for a reactive system to be flexible, loosely-coupled, and scalable</strong>. This makes such systems easy to develop, tolerant of failures, and most importantly highly responsive, the underpinning for incredible user experiences.</p>
-<p>So what is this secret recipe? Well, it's hardly any secret! The manifesto defines the fundamental characteristics or principles of a reactive system:</p>
-<ul>
-<li><em>Responsive</em>: A reactive system should provide a rapid and consistent response time and hence a consistent quality of service</li>
-<li><em>Resilient</em>: A reactive system should remain responsive in case of random failures through replication and isolation</li>
-<li><em>Elastic</em>: Such a system should remain responsive under unpredictable workloads through cost-effective scalability</li>
-<li><em>Message-Driven</em>: It should rely on asynchronous message passing between system components</li>
-</ul>
-<p>These principles sound simple and sensible but aren't always easier to implement in complex enterprise architecture. In this tutorial, we'll develop a sample system in Java with these principles in mind!</p>
-<h2 id="bd-what_is_reactive_programming" data-id="what_is_reactive_programming">3. What Is Reactive Programming?</h2>
-<div class="bd-anchor" id="what_is_reactive_programming"></div>
-<p>Before we proceed, it's important to understand the difference between reactive programming and reactive systems. We use both these terms quite often and easily misunderstand one for the other. As we've seen earlier, reactive systems are a result of a specific architectural style.</p>
-<p>In contrast, <strong>reactive programming is a programming paradigm where the focus is on developing asynchronous and non-blocking components</strong>. The core of reactive programming is a data stream that we can observe and react to, even apply back pressure as well. This leads to non-blocking execution and hence to better scalability with fewer threads of execution.</p>
-<p>Now, this doesn't mean that reactive systems and reactive programming are mutually exclusive. In fact, reactive programming is an important step towards realizing a reactive system, but it's not everything!</p>
-<h3 id="bd-1-reactive-streams" data-id="1-reactive-streams">3.1. Reactive Streams</h3>
-<div class="bd-anchor" id="1-reactive-streams"></div>
-<p><a href="http://www.reactive-streams.org/">Reactive Streams</a> is a community initiative that started back in the year 2013 to <strong>provide a standard for asynchronous stream processing with non-blocking backpressure</strong>. The objective here was to define a set of interfaces, methods, and protocols that can describe the necessary operations and entities.</p>
-<p>Since then, several implementations in multiple programming languages have emerged which conforms to the reactive streams specification. These include Akka Streams, Ratpack, and Vert.x to name a few.</p>
-<h3 id="bd-2-reactive-libraries-for-java" data-id="2-reactive-libraries-for-java">3.2. Reactive Libraries for Java</h3>
-<div class="bd-anchor" id="2-reactive-libraries-for-java"></div>
-<p>One of the initial objectives behind the reactive streams was to be eventually included as an official Java standard library. As a result, the reactive streams specification is semantically equivalent to the Java Flow library, introduced in Java 9.</p>
-<p>Apart from that, there are a few popular choices to implement reactive programming in Java:</p>
-<ul>
-<li><a href="http://reactivex.io/">Reactive Extensions</a>: Popularly known as ReactiveX, they provide API for asynchronous programming with observable streams. These are available for multiple programming languages and platforms, including Java where it's known as <a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
-<li><a href="https://projectreactor.io/">Project Reactor</a>: This is another reactive library, grounds-up based on the reactive streams specification, targetted towards building non-applications on the JVM. It also happens to be the foundation of the <a href="https://spring.io/reactive">reactive stack in the Spring ecosystem</a></li>
-</ul>
-<h2 id="bd-a_simple_application" data-id="a_simple_application">4. A Simple Application</h2>
-<div class="bd-anchor" id="a_simple_application"></div>
-<p>For the purpose of this tutorial, we'll develop a simple application based on microservices architecture with a minimal frontend. The application architecture should have enough elements to create a reactive system.</p>
-<p>For our application, we'll adopt end-to-end reactive programming and other patterns and tools to accomplish the fundamental characteristics of a reactive system.</p>
-<h3 id="bd-1-architecture" data-id="1-architecture">4.1. Architecture</h3>
-<div class="bd-anchor" id="1-architecture"></div>
-<p>We'll begin by defining <strong>a simple application architecture which doesn't necessarily exhibit the characteristics of reactive systems</strong>. From there on, we'll make the necessary changes to achieve these characteristics one by one.</p>
-<p>So, first, let's begin by defining a simple architecture:</p>
-<a href="/wp-content/uploads/2020/07/Blocking-Architecture.jpg"><img class="wp-image-83033 aligncenter" src="https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture.jpg" alt="" width="636" height="368" srcset="https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture.jpg 880w, https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture-300x174.jpg 300w, https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture-768x444.jpg 768w, https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture-100x58.jpg 100w" sizes="(max-width: 636px) 100vw, 636px" /></a>
-<p>This is quite a simple architecture that has a bunch of microservices to facilitate a commerce use-case where we can place an order. It also has a frontend for user experience, and all communication happens as REST over HTTP. Moreover, every microservice manages their data in individual databases, a practice known as database-per-service.</p>
-<p>We'll go ahead and create this simple application in the following sub-sections. This will be our <strong>base to understand the fallacies of this architecture</strong> and ways and means to adopt principles and practices so that we can transform this into a reactive system.</p>
-<h3 id="bd-3-inventory-microservice" data-id="3-inventory-microservice">4.3. Inventory Microservice</h3>
-<div class="bd-anchor" id="3-inventory-microservice"></div>
-<p>Inventory microservice will be <strong>responsible for managing a list of products and their current stock</strong>. It will also allow altering the stock as orders are processed. We'll use <a href="/spring-boot">Spring Boot</a> with MongoDB to develop this service.</p>
-<p>Let's begin by defining a controller to expose some endpoints:</p>
-<pre><code class="language-java">@GetMapping
+    </script>
+</head>
+<body class="post-template-default single single-post postid-83032 single-format-standard site-baeldung elementor-default elementor-kit-82519">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-dark-grayscale">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0 0.49803921568627"/>
+                <feFuncG type="table" tableValues="0 0.49803921568627"/>
+                <feFuncB type="table" tableValues="0 0.49803921568627"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-grayscale">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0 1"/>
+                <feFuncG type="table" tableValues="0 1"/>
+                <feFuncB type="table" tableValues="0 1"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-purple-yellow">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"/>
+                <feFuncG type="table" tableValues="0 1"/>
+                <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-blue-red">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0 1"/>
+                <feFuncG type="table" tableValues="0 0.27843137254902"/>
+                <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-midnight">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0 0"/>
+                <feFuncG type="table" tableValues="0 0.64705882352941"/>
+                <feFuncB type="table" tableValues="0 1"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-magenta-yellow">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0.78039215686275 1"/>
+                <feFuncG type="table" tableValues="0 0.94901960784314"/>
+                <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-purple-green">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"/>
+                <feFuncG type="table" tableValues="0 1"/>
+                <feFuncB type="table" tableValues="0.44705882352941 0.4"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-blue-orange">
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
+            <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues="0.098039215686275 1"/>
+                <feFuncG type="table" tableValues="0 0.66274509803922"/>
+                <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"/>
+                <feFuncA type="table" tableValues="1 1"/>
+            </feComponentTransfer>
+            <feComposite in2="SourceGraphic" operator="in"/>
+        </filter>
+    </defs>
+</svg>
+<div id="fvp" data-attribute-tags="" data-attribute-categories="Architecture,Reactive"
+     data-attribute-sitename="Baeldung" hidden></div>
+<div id="wrap">
+    <div id="big-nav" class="inactive menu-not-loaded"></div>
+    <div id="content" class="container">
+        <div class="container-inner">
+            <div class="flex-wrap">
+                <div id="main" class="flex-col clearfix" role="main">
+                    <div id="toc-contents"></div>
+                    <article id="post-83032"
+                             class="clearfix post-83032 post type-post status-publish format-standard has-post-thumbnail hentry category-architecture category-reactive"
+                             role="article" itemscope itemtype="http://schema.org/BlogPosting">
+                        <meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage"
+                              itemid="https://google.com/article"/>
+                        <meta itemprop="datePublished" content="2020-07-14T18:10:35+0200"/>
+                        <meta itemprop="dateModified" content="2020-08-13T18:51:03+0200"/>
+                        <header>
+                            <div class="page-header"><h1 class="single-title entry-title" itemprop="headline">Reactive
+                                Systems in Java</h1>
+
+                            </div>
+                        </header>
+                        <div class='geo-targeting-widgets'>
+                            <div data-sticky-weight="1" data-event-label-on-display="BF-2022" data-height-limit="0"
+                                 data-stickyness="sticky" data-geoloc-targets="US CA DE GB FR DK FI IS NO SE FO GL"
+                                 class="geotargeting-widget"><span style="display:none;">November Discount Launch 2022 &#8211; TEMP TOP (NPI)</span>
+                                <div class="textwidget">
+                                    <div class="short_box short_start">
+                                        We’re finally running a Black Friday launch. All Courses are <strong>30%
+                                        off</strong> until <strong>December 2nd:</strong>
+                                        <h3><strong><a href="/all-courses">&gt;&gt; GET ACCESS NOW</a></strong></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="post-content clearfix" itemprop="articleBody">
+                            <h2 id="bd-introduction" data-id="introduction">1. Introduction</h2>
+                            <div class="bd-anchor" id="introduction"></div>
+                            <p>In this tutorial, we'll understand the basics of creating reactive systems in Java using
+                                Spring and other tools and frameworks.</p>
+                            <p>In the process, we'll discuss how reactive programming is just a driver towards creating
+                                a reactive system. This will help us understand the rationale for creating reactive
+                                systems and different specifications, libraries, and standards it has inspired along the
+                                way.</p>
+                            <h2 id="bd-what_are_reactive_systems" data-id="what_are_reactive_systems">2. What Are
+                                Reactive Systems?</h2>
+                            <div class="bd-anchor" id="what_are_reactive_systems"></div>
+                            <p>Over the last few decades, the technology landscape has seen several disruptions that
+                                have led to a complete transformation in the way we see value in technology. The
+                                computing world before the Internet could never have imagined the ways and means in
+                                which it will change our current day.</p>
+                            <p>With the reach of the Internet to the masses and the ever-evolving experience it
+                                promises, application architects need to be on their toes to meet their demand.</p>
+                            <p>Fundamentally, this means that we can never design an application in the way we used to
+                                earlier. A <strong>highly responsive application is no longer a luxury but a
+                                    necessity</strong>.</p>
+                            <p>That, too, is in the face of random failures and unpredictable load. The need of the hour
+                                is not just to get the correct result but get to get it fast! It's quite important to
+                                drive the amazing user experiences we promise to deliver.</p>
+                            <p>This is what creates the need for an architectural style that can give us Reactive
+                                Systems.</p>
+                            <h3 id="bd-1-reactive-manifesto" data-id="1-reactive-manifesto">2.1. Reactive Manifesto</h3>
+                            <div class="bd-anchor" id="1-reactive-manifesto"></div>
+                            <p>Back in the year 2013, <strong>a team of developers, lead by Jonas Boner came together to
+                                define a set of core principles</strong> in a document known as <a
+                                    href="https://www.reactivemanifesto.org/">the Reactive Manifesto</a>. This is what
+                                laid the foundation for an architecture style to create Reactive Systems. Since then,
+                                this manifesto has gathered a lot of interest from the developer community.</p>
+                            <p>Basically, this document prescribes <strong>the recipe for a reactive system to be
+                                flexible, loosely-coupled, and scalable</strong>. This makes such systems easy to
+                                develop, tolerant of failures, and most importantly highly responsive, the underpinning
+                                for incredible user experiences.</p>
+                            <p>So what is this secret recipe? Well, it's hardly any secret! The manifesto defines the
+                                fundamental characteristics or principles of a reactive system:</p>
+                            <ul>
+                                <li><em>Responsive</em>: A reactive system should provide a rapid and consistent
+                                    response time and hence a consistent quality of service
+                                </li>
+                                <li><em>Resilient</em>: A reactive system should remain responsive in case of random
+                                    failures through replication and isolation
+                                </li>
+                                <li><em>Elastic</em>: Such a system should remain responsive under unpredictable
+                                    workloads through cost-effective scalability
+                                </li>
+                                <li><em>Message-Driven</em>: It should rely on asynchronous message passing between
+                                    system components
+                                </li>
+                            </ul>
+                            <p>These principles sound simple and sensible but aren't always easier to implement in
+                                complex enterprise architecture. In this tutorial, we'll develop a sample system in Java
+                                with these principles in mind!</p>
+                            <h2 id="bd-what_is_reactive_programming" data-id="what_is_reactive_programming">3. What Is
+                                Reactive Programming?</h2>
+                            <div class="bd-anchor" id="what_is_reactive_programming"></div>
+                            <p>Before we proceed, it's important to understand the difference between reactive
+                                programming and reactive systems. We use both these terms quite often and easily
+                                misunderstand one for the other. As we've seen earlier, reactive systems are a result of
+                                a specific architectural style.</p>
+                            <p>In contrast, <strong>reactive programming is a programming paradigm where the focus is on
+                                developing asynchronous and non-blocking components</strong>. The core of reactive
+                                programming is a data stream that we can observe and react to, even apply back pressure
+                                as well. This leads to non-blocking execution and hence to better scalability with fewer
+                                threads of execution.</p>
+                            <p>Now, this doesn't mean that reactive systems and reactive programming are mutually
+                                exclusive. In fact, reactive programming is an important step towards realizing a
+                                reactive system, but it's not everything!</p>
+                            <h3 id="bd-1-reactive-streams" data-id="1-reactive-streams">3.1. Reactive Streams</h3>
+                            <div class="bd-anchor" id="1-reactive-streams"></div>
+                            <p><a href="http://www.reactive-streams.org/">Reactive Streams</a> is a community initiative
+                                that started back in the year 2013 to <strong>provide a standard for asynchronous stream
+                                    processing with non-blocking backpressure</strong>. The objective here was to define
+                                a set of interfaces, methods, and protocols that can describe the necessary operations
+                                and entities.</p>
+                            <p>Since then, several implementations in multiple programming languages have emerged which
+                                conforms to the reactive streams specification. These include Akka Streams, Ratpack, and
+                                Vert.x to name a few.</p>
+                            <h3 id="bd-2-reactive-libraries-for-java" data-id="2-reactive-libraries-for-java">3.2.
+                                Reactive Libraries for Java</h3>
+                            <div class="bd-anchor" id="2-reactive-libraries-for-java"></div>
+                            <p>One of the initial objectives behind the reactive streams was to be eventually included
+                                as an official Java standard library. As a result, the reactive streams specification is
+                                semantically equivalent to the Java Flow library, introduced in Java 9.</p>
+                            <p>Apart from that, there are a few popular choices to implement reactive programming in
+                                Java:</p>
+                            <ul>
+                                <li><a href="http://reactivex.io/">Reactive Extensions</a>: Popularly known as
+                                    ReactiveX, they provide API for asynchronous programming with observable streams.
+                                    These are available for multiple programming languages and platforms, including Java
+                                    where it's known as <a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
+                                <li><a href="https://projectreactor.io/">Project Reactor</a>: This is another reactive
+                                    library, grounds-up based on the reactive streams specification, targetted towards
+                                    building non-applications on the JVM. It also happens to be the foundation of the <a
+                                            href="https://spring.io/reactive">reactive stack in the Spring ecosystem</a>
+                                </li>
+                            </ul>
+                            <h2 id="bd-a_simple_application" data-id="a_simple_application">4. A Simple Application</h2>
+                            <div class="bd-anchor" id="a_simple_application"></div>
+                            <p>For the purpose of this tutorial, we'll develop a simple application based on
+                                microservices architecture with a minimal frontend. The application architecture should
+                                have enough elements to create a reactive system.</p>
+                            <p>For our application, we'll adopt end-to-end reactive programming and other patterns and
+                                tools to accomplish the fundamental characteristics of a reactive system.</p>
+                            <h3 id="bd-1-architecture" data-id="1-architecture">4.1. Architecture</h3>
+                            <div class="bd-anchor" id="1-architecture"></div>
+                            <p>We'll begin by defining <strong>a simple application architecture which doesn't
+                                necessarily exhibit the characteristics of reactive systems</strong>. From there on,
+                                we'll make the necessary changes to achieve these characteristics one by one.</p>
+                            <p>So, first, let's begin by defining a simple architecture:</p>
+                            <a href="/wp-content/uploads/2020/07/Blocking-Architecture.jpg"><img
+                                    class="wp-image-83033 aligncenter"
+                                    src="https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture.jpg"
+                                    alt="" width="636" height="368"
+                                    srcset="https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture.jpg 880w, https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture-300x174.jpg 300w, https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture-768x444.jpg 768w, https://www.baeldung.com/wp-content/uploads/2020/07/Blocking-Architecture-100x58.jpg 100w"
+                                    sizes="(max-width: 636px) 100vw, 636px"/></a>
+                            <p>This is quite a simple architecture that has a bunch of microservices to facilitate a
+                                commerce use-case where we can place an order. It also has a frontend for user
+                                experience, and all communication happens as REST over HTTP. Moreover, every
+                                microservice manages their data in individual databases, a practice known as
+                                database-per-service.</p>
+                            <p>We'll go ahead and create this simple application in the following sub-sections. This
+                                will be our <strong>base to understand the fallacies of this architecture</strong> and
+                                ways and means to adopt principles and practices so that we can transform this into a
+                                reactive system.</p>
+                            <h3 id="bd-3-inventory-microservice" data-id="3-inventory-microservice">4.3. Inventory
+                                Microservice</h3>
+                            <div class="bd-anchor" id="3-inventory-microservice"></div>
+                            <p>Inventory microservice will be <strong>responsible for managing a list of products and
+                                their current stock</strong>. It will also allow altering the stock as orders are
+                                processed. We'll use <a href="/spring-boot">Spring Boot</a> with MongoDB to develop this
+                                service.</p>
+                            <p>Let's begin by defining a controller to expose some endpoints:</p>
+                            <pre><code class="language-java">@GetMapping
 public List&lt;Product&gt; getAllProducts() {
     return productService.getProducts();
 }
- 
+
 @PostMapping
 public Order processOrder(@RequestBody Order order) {
     return productService.handleOrder(order);
 }
- 
+
 @DeleteMapping
 public Order revertOrder(@RequestBody Order order) {
     return productService.revertOrder(order);
 }</code></pre>
-<p>and a service to encapsulate our business logic:</p>
-<pre><code class="language-java">@Transactional
-public Order handleOrder(Order order) {       
+                            <p>and a service to encapsulate our business logic:</p>
+                            <pre><code class="language-java">@Transactional
+public Order handleOrder(Order order) {
     order.getLineItems()
       .forEach(l -&gt; {
           Product&gt; p = productRepository.findById(l.getProductId())
@@ -1368,19 +1363,27 @@ public Order revertOrder(Order order) {
       });
     return order.setOrderStatus(OrderStatus.SUCCESS);
 }</code></pre>
-<p>Note that we're <strong>persisting the entities within a transaction</strong>, which ensures that no inconsistent state results in case of exceptions.</p>
-<p>Apart from these, we'll also have to define the domain entities, the repository interface, and a bunch of configuration classes necessary for everything to work properly.</p>
-<p>But since these are mostly boilerplate, we'll avoid going through them, and they can be referred to in the GitHub repository provided in the last section of this article.</p>
-<h3 id="bd-4-shipping-microservice" data-id="4-shipping-microservice">4.4. Shipping Microservice</h3>
-<div class="bd-anchor" id="4-shipping-microservice"></div>
-<p>The shipping microservice will not be very different either. This will be <strong>responsible for checking if a shipment can be generated for the order</strong> and create one if possible.</p>
-<p>As before we'll define a controller to expose our endpoints, in fact just a single endpoint:</p>
-<pre><code class="language-java">@PostMapping
+                            <p>Note that we're <strong>persisting the entities within a transaction</strong>, which
+                                ensures that no inconsistent state results in case of exceptions.</p>
+                            <p>Apart from these, we'll also have to define the domain entities, the repository
+                                interface, and a bunch of configuration classes necessary for everything to work
+                                properly.</p>
+                            <p>But since these are mostly boilerplate, we'll avoid going through them, and they can be
+                                referred to in the GitHub repository provided in the last section of this article.</p>
+                            <h3 id="bd-4-shipping-microservice" data-id="4-shipping-microservice">4.4. Shipping
+                                Microservice</h3>
+                            <div class="bd-anchor" id="4-shipping-microservice"></div>
+                            <p>The shipping microservice will not be very different either. This will be <strong>responsible
+                                for checking if a shipment can be generated for the order</strong> and create one if
+                                possible.</p>
+                            <p>As before we'll define a controller to expose our endpoints, in fact just a single
+                                endpoint:</p>
+                            <pre><code class="language-java">@PostMapping
 public Order process(@RequestBody Order order) {
     return shippingService.handleOrder(order);
 }</code></pre>
-<p>and a service to encapsulate the business logic related to order shipment:</p>
-<pre><code class="language-java">public Order handleOrder(Order order) {
+                            <p>and a service to encapsulate the business logic related to order shipment:</p>
+                            <pre><code class="language-java">public Order handleOrder(Order order) {
     LocalDate shippingDate = null;
     if (LocalTime.now().isAfter(LocalTime.parse(&quot;10:00&quot;))
       && LocalTime.now().isBefore(LocalTime.parse(&quot;18:00&quot;))) {
@@ -1394,12 +1397,16 @@ public Order process(@RequestBody Order order) {
     return order.setShippingDate(shippingDate)
       .setOrderStatus(OrderStatus.SUCCESS);
 }</code></pre>
-<p>Our simple shipping service is just checking the valid time window to place orders. We'll avoid discussing the rest of the boilerplate code as before.</p>
-<h3 id="bd-5-order-microservice" data-id="5-order-microservice">4.5. Order Microservice</h3>
-<div class="bd-anchor" id="5-order-microservice"></div>
-<p>Finally, we'll define an order microservice which will be <strong>responsible for creating a new order apart from other things</strong>. Interestingly, it'll also play as an orchestrator service where it will communicate with the inventory service and the shipping service for the order.</p>
-<p>Let's define our controller with the required endpoints:</p>
-<pre><code class="language-java">@PostMapping
+                            <p>Our simple shipping service is just checking the valid time window to place orders. We'll
+                                avoid discussing the rest of the boilerplate code as before.</p>
+                            <h3 id="bd-5-order-microservice" data-id="5-order-microservice">4.5. Order Microservice</h3>
+                            <div class="bd-anchor" id="5-order-microservice"></div>
+                            <p>Finally, we'll define an order microservice which will be <strong>responsible for
+                                creating a new order apart from other things</strong>. Interestingly, it'll also play as
+                                an orchestrator service where it will communicate with the inventory service and the
+                                shipping service for the order.</p>
+                            <p>Let's define our controller with the required endpoints:</p>
+                            <pre><code class="language-java">@PostMapping
 public Order create(@RequestBody Order order) {
     Order processedOrder = orderService.createOrder(order);
     if (OrderStatus.FAILURE.equals(processedOrder.getOrderStatus())) {
@@ -1411,8 +1418,8 @@ public Order create(@RequestBody Order order) {
 public List&lt;Order&gt; getAll() {
     return orderService.getOrders();
 }</code></pre>
-<p>And, a service to encapsulate the business logic related to orders:</p>
-<pre><code class="language-java">public Order createOrder(Order order) {
+                            <p>And, a service to encapsulate the business logic related to orders:</p>
+                            <pre><code class="language-java">public Order createOrder(Order order) {
     boolean success = true;
     Order savedOrder = orderRepository.save(order);
     Order inventoryResponse = null;
@@ -1444,14 +1451,21 @@ public List&lt;Order&gt; getAll() {
 public List&lt;Order&gt; getOrders() {
     return orderRepository.findAll();
 }</code></pre>
-<p>The handling of orders where we're orchestrating calls to inventory and shipping services is far from ideal. Distributed <strong>transactions with multiple microservices is a complex topic in itself and beyond the scope of this tutorial</strong>.</p>
-<p>However, we'll see later in this tutorial how a reactive system can avoid the need for distributed transactions to a certain extent.</p>
-<p>As before, we'll not go through the rest of the boilerplate code. However, this can be referenced in the GitHub repo.</p>
-<h3 id="bd-6-front-end" data-id="6-front-end">4.6. Front-end</h3>
-<div class="bd-anchor" id="6-front-end"></div>
-<p>Let's also add a user interface to make the discussion complete. The user interface will be based on Angular and will be a simple single-page application.</p>
-<p>We'll need to <strong>create a simple component in Angular to handle create and fetch orders</strong>. Of specific importance is the part where we call our API to create the order:</p>
-<pre><code class="language-javascript">createOrder() {
+                            <p>The handling of orders where we're orchestrating calls to inventory and shipping services
+                                is far from ideal. Distributed <strong>transactions with multiple microservices is a
+                                    complex topic in itself and beyond the scope of this tutorial</strong>.</p>
+                            <p>However, we'll see later in this tutorial how a reactive system can avoid the need for
+                                distributed transactions to a certain extent.</p>
+                            <p>As before, we'll not go through the rest of the boilerplate code. However, this can be
+                                referenced in the GitHub repo.</p>
+                            <h3 id="bd-6-front-end" data-id="6-front-end">4.6. Front-end</h3>
+                            <div class="bd-anchor" id="6-front-end"></div>
+                            <p>Let's also add a user interface to make the discussion complete. The user interface will
+                                be based on Angular and will be a simple single-page application.</p>
+                            <p>We'll need to <strong>create a simple component in Angular to handle create and fetch
+                                orders</strong>. Of specific importance is the part where we call our API to create the
+                                order:</p>
+                            <pre><code class="language-javascript">createOrder() {
     let headers = new HttpHeaders({&#039;Content-Type&#039;: &#039;application/json&#039;});
     let options = {headers: headers}
     this.http.post(&#039;http://localhost:8080/api/orders&#039;, this.form.value, options)
@@ -1464,13 +1478,19 @@ public List&lt;Order&gt; getOrders() {
         }
       )
 }</code></pre>
-<p>The above code snippet <strong>expects order data to be captured in a form and available within the scope of the component</strong>. Angular offers fantastic support for creating simple to complex forms using <a href="https://angular.io/guide/forms-overview">reactive and template-driven forms</a>.</p>
-<p>Also important is the part where we get previously created orders:</p>
-<pre><code class="language-javascript">getOrders() {
+                            <p>The above code snippet <strong>expects order data to be captured in a form and available
+                                within the scope of the component</strong>. Angular offers fantastic support for
+                                creating simple to complex forms using <a
+                                        href="https://angular.io/guide/forms-overview">reactive and template-driven
+                                    forms</a>.</p>
+                            <p>Also important is the part where we get previously created orders:</p>
+                            <pre><code class="language-javascript">getOrders() {
   this.previousOrders = this.http.get(&#039;&#039;http://localhost:8080/api/orders&#039;&#039;)
 }</code></pre>
-<p>Please note that the <a href="https://angular.io/guide/http">Angular HTTP module</a> is <strong>asynchronous in nature and hence returns RxJS <em>Observable</em>s</strong>. We can handle the response in our view by passing them through an async pipe:</p>
-<pre><code class="language-html">&lt;div class=&quot;container&quot; *ngIf=&quot;previousOrders !== null&quot;&gt;
+                            <p>Please note that the <a href="https://angular.io/guide/http">Angular HTTP module</a> is
+                                <strong>asynchronous in nature and hence returns RxJS <em>Observable</em>s</strong>. We
+                                can handle the response in our view by passing them through an async pipe:</p>
+                            <pre><code class="language-html">&lt;div class=&quot;container&quot; *ngIf=&quot;previousOrders !== null&quot;&gt;
   &lt;h2&gt;Your orders placed so far:&lt;/h2&gt;
   &lt;ul&gt;
     &lt;li *ngFor=&quot;let order of previousOrders | async&quot;&gt;
@@ -1478,14 +1498,22 @@ public List&lt;Order&gt; getOrders() {
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;</code></pre>
-<p>Of course, Angular will require templates, styles, and configurations to work, but these can be referred to in the GitHub repository. Please note that we have bundled everything in a single component here, which is ideally not something we should do.</p>
-<p>But, for this tutorial, those concerns are not in scope.</p>
-<h3 id="bd-7-deploying-the-application" data-id="7-deploying-the-application">4.7. Deploying the Application</h3>
-<div class="bd-anchor" id="7-deploying-the-application"></div>
-<p>Now that we've created all individual parts of the application, how should we go about deploying them? Well, we can always do this manually. But we should be careful that it can soon become tedious.</p>
-<p>For this tutorial, we'll use <a href="/docker-compose">Docker Compose</a> to <strong>build and deploy our application on a Docker Machine</strong>. This will require us to add a standard Dockerfile in each service and create a Docker Compose file for the entire application.</p>
-<p>Let's see how this <em>docker-compose.yml</em> file looks:</p>
-<pre><code class="language-plaintext">version: &#039;3&#039;
+                            <p>Of course, Angular will require templates, styles, and configurations to work, but these
+                                can be referred to in the GitHub repository. Please note that we have bundled everything
+                                in a single component here, which is ideally not something we should do.</p>
+                            <p>But, for this tutorial, those concerns are not in scope.</p>
+                            <h3 id="bd-7-deploying-the-application" data-id="7-deploying-the-application">4.7. Deploying
+                                the Application</h3>
+                            <div class="bd-anchor" id="7-deploying-the-application"></div>
+                            <p>Now that we've created all individual parts of the application, how should we go about
+                                deploying them? Well, we can always do this manually. But we should be careful that it
+                                can soon become tedious.</p>
+                            <p>For this tutorial, we'll use <a href="/docker-compose">Docker Compose</a> to <strong>build
+                                and deploy our application on a Docker Machine</strong>. This will require us to add a
+                                standard Dockerfile in each service and create a Docker Compose file for the entire
+                                application.</p>
+                            <p>Let's see how this <em>docker-compose.yml</em> file looks:</p>
+                            <pre><code class="language-plaintext">version: &#039;3&#039;
 services:
   frontend:
     build: ./frontend
@@ -1503,31 +1531,60 @@ services:
     build: ./shipping-service
     ports:
       - &quot;8082:8082&quot;</code></pre>
-<p>This is a fairly standard definition of services in Docker Compose and does not require any special attention.</p>
-<h3 id="bd-8-problems-with-this-architecture" data-id="8-problems-with-this-architecture">4.8. Problems With This Architecture</h3>
-<div class="bd-anchor" id="8-problems-with-this-architecture"></div>
-<p>Now that we have a simple application in place with multiple services interacting with each other, we can discuss the problems in this architecture. There are what we'll try to address in the following sections and eventually get to the state where we would have transformed our application into a reactive system!</p>
-<p>While this application is far from a production-grade software and there are several issues, we'll <strong>focus on the issues that pertain to the motivations for reactive systems</strong>:</p>
-<ul>
-<li>Failure in either inventory service or shipping service can have a cascading effect</li>
-<li>The calls to external systems and database are all blocking in nature</li>
-<li>The deployment cannot handle failures and fluctuating loads automatically</li>
-</ul>
-<h2 id="bd-reactive_programming" data-id="reactive_programming">5. Reactive Programming</h2>
-<div class="bd-anchor" id="reactive_programming"></div>
-<p>Blocking calls in any program often <strong>result in critical resources just waiting for things to happen</strong>. These include database calls, calls to web services, and file system calls. If we can free up threads of execution from this waiting and provide a mechanism to circle back once results are available, it will yield much better resource utilization.</p>
-<p>This is what adopting the reactive programming paradigm does for us. While it's possible to switch over to a reactive library for many of these calls, it may not be possible for everything. For us, fortunately, Spring makes it much easier to use reactive programming with MongoDB and REST APIs:</p>
-<a href="/wp-content/uploads/2020/07/Reactive-Architecture.jpg"><img loading="lazy" class=" wp-image-83034 aligncenter" src="https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture.jpg" alt="" width="621" height="358" srcset="https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture.jpg 888w, https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture-300x173.jpg 300w, https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture-768x443.jpg 768w, https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture-100x58.jpg 100w" sizes="(max-width: 621px) 100vw, 621px" /></a>
-<p><a href="/spring-data-mongodb-tutorial">Spring Data Mongo</a> has support for reactive access through the MongoDB Reactive Streams Java Driver. It provides <em>ReactiveMongoTemplate</em> and <em>ReactiveMongoRepository</em>, both of which have extensive mapping functionality.</p>
-<p><a href="/spring-webflux">Spring WebFlux</a> provides the reactive-stack web framework for Spring, enabling non-blocking code and Reactive Streams backpressure. It leverages the Reactor as its reactive library. Further, it provides <em>WebClient</em> for performing HTTP requests with Reactive Streams backpressure. It uses Reactor Netty as the HTTP client library.</p>
-<h3 id="bd-1-inventory-service" data-id="1-inventory-service">5.1. Inventory Service</h3>
-<div class="bd-anchor" id="1-inventory-service"></div>
-<p>We'll begin by changing our endpoints to emit reactive publishers:</p>
-<pre><code class="language-java">@GetMapping
+                            <p>This is a fairly standard definition of services in Docker Compose and does not require
+                                any special attention.</p>
+                            <h3 id="bd-8-problems-with-this-architecture" data-id="8-problems-with-this-architecture">
+                                4.8. Problems With This Architecture</h3>
+                            <div class="bd-anchor" id="8-problems-with-this-architecture"></div>
+                            <p>Now that we have a simple application in place with multiple services interacting with
+                                each other, we can discuss the problems in this architecture. There are what we'll try
+                                to address in the following sections and eventually get to the state where we would have
+                                transformed our application into a reactive system!</p>
+                            <p>While this application is far from a production-grade software and there are several
+                                issues, we'll <strong>focus on the issues that pertain to the motivations for reactive
+                                    systems</strong>:</p>
+                            <ul>
+                                <li>Failure in either inventory service or shipping service can have a cascading
+                                    effect
+                                </li>
+                                <li>The calls to external systems and database are all blocking in nature</li>
+                                <li>The deployment cannot handle failures and fluctuating loads automatically</li>
+                            </ul>
+                            <h2 id="bd-reactive_programming" data-id="reactive_programming">5. Reactive Programming</h2>
+                            <div class="bd-anchor" id="reactive_programming"></div>
+                            <p>Blocking calls in any program often <strong>result in critical resources just waiting for
+                                things to happen</strong>. These include database calls, calls to web services, and file
+                                system calls. If we can free up threads of execution from this waiting and provide a
+                                mechanism to circle back once results are available, it will yield much better resource
+                                utilization.</p>
+                            <p>This is what adopting the reactive programming paradigm does for us. While it's possible
+                                to switch over to a reactive library for many of these calls, it may not be possible for
+                                everything. For us, fortunately, Spring makes it much easier to use reactive programming
+                                with MongoDB and REST APIs:</p>
+                            <a href="/wp-content/uploads/2020/07/Reactive-Architecture.jpg"><img loading="lazy"
+                                                                                                 class=" wp-image-83034 aligncenter"
+                                                                                                 src="https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture.jpg"
+                                                                                                 alt="" width="621"
+                                                                                                 height="358"
+                                                                                                 srcset="https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture.jpg 888w, https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture-300x173.jpg 300w, https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture-768x443.jpg 768w, https://www.baeldung.com/wp-content/uploads/2020/07/Reactive-Architecture-100x58.jpg 100w"
+                                                                                                 sizes="(max-width: 621px) 100vw, 621px"/></a>
+                            <p><a href="/spring-data-mongodb-tutorial">Spring Data Mongo</a> has support for reactive
+                                access through the MongoDB Reactive Streams Java Driver. It provides <em>ReactiveMongoTemplate</em>
+                                and <em>ReactiveMongoRepository</em>, both of which have extensive mapping
+                                functionality.</p>
+                            <p><a href="/spring-webflux">Spring WebFlux</a> provides the reactive-stack web framework
+                                for Spring, enabling non-blocking code and Reactive Streams backpressure. It leverages
+                                the Reactor as its reactive library. Further, it provides <em>WebClient</em> for
+                                performing HTTP requests with Reactive Streams backpressure. It uses Reactor Netty as
+                                the HTTP client library.</p>
+                            <h3 id="bd-1-inventory-service" data-id="1-inventory-service">5.1. Inventory Service</h3>
+                            <div class="bd-anchor" id="1-inventory-service"></div>
+                            <p>We'll begin by changing our endpoints to emit reactive publishers:</p>
+                            <pre><code class="language-java">@GetMapping
 public Flux&lt;Product&gt; getAllProducts() {
     return productService.getProducts();
 }</code></pre>
-<pre><code class="language-java">@PostMapping
+                            <pre><code class="language-java">@PostMapping
 public Mono&lt;Order&gt; processOrder(@RequestBody Order order) {
     return productService.handleOrder(order);
 }
@@ -1536,8 +1593,8 @@ public Mono&lt;Order&gt; processOrder(@RequestBody Order order) {
 public Mono&lt;Order&gt; revertOrder(@RequestBody Order order) {
     return productService.revertOrder(order);
 }</code></pre>
-<p>Obviously, we'll have to make necessary changes to the service as well:</p>
-<pre><code class="language-java">@Transactional
+                            <p>Obviously, we'll have to make necessary changes to the service as well:</p>
+                            <pre><code class="language-java">@Transactional
 public Mono&lt;Order&gt; handleOrder(Order order) {
     return Flux.fromIterable(order.getLineItems())
       .flatMap(l -&gt; productRepository.findById(l.getProductId()))
@@ -1570,15 +1627,15 @@ public Mono&lt;Order&gt; revertOrder(Order order) {
       })
       .then(Mono.just(order.setOrderStatus(&quot;SUCCESS&quot;)));
 }</code></pre>
-<h3 id="bd-2-shipping-service" data-id="2-shipping-service">5.2. Shipping Service</h3>
-<div class="bd-anchor" id="2-shipping-service"></div>
-<p>Similarly, we'll change the endpoint of our shipping service:</p>
-<pre><code class="language-java">@PostMapping
+                            <h3 id="bd-2-shipping-service" data-id="2-shipping-service">5.2. Shipping Service</h3>
+                            <div class="bd-anchor" id="2-shipping-service"></div>
+                            <p>Similarly, we'll change the endpoint of our shipping service:</p>
+                            <pre><code class="language-java">@PostMapping
 public Mono&lt;Order&gt; process(@RequestBody Order order) {
     return shippingService.handleOrder(order);
 }</code></pre>
-<p>And, corresponding changes in the service to leverage reactive programming:</p>
-<pre><code class="language-java">public Mono&lt;Order&gt; handleOrder(Order order) {
+                            <p>And, corresponding changes in the service to leverage reactive programming:</p>
+                            <pre><code class="language-java">public Mono&lt;Order&gt; handleOrder(Order order) {
     return Mono.just(order)
       .flatMap(o -&gt; {
           LocalDate shippingDate = null;
@@ -1595,10 +1652,10 @@ public Mono&lt;Order&gt; process(@RequestBody Order order) {
       .map(s -&gt; order.setShippingDate(s.getShippingDate())
         .setOrderStatus(OrderStatus.SUCCESS));
     }</code></pre>
-<h3 id="bd-3-order-service" data-id="3-order-service">5.3. Order Service</h3>
-<div class="bd-anchor" id="3-order-service"></div>
-<p>We'll have to make similar changes in the endpoints of the order service:</p>
-<pre><code class="language-java">@PostMapping
+                            <h3 id="bd-3-order-service" data-id="3-order-service">5.3. Order Service</h3>
+                            <div class="bd-anchor" id="3-order-service"></div>
+                            <p>We'll have to make similar changes in the endpoints of the order service:</p>
+                            <pre><code class="language-java">@PostMapping
 public Mono&lt;Order&gt; create(@RequestBody Order order) {
     return orderService.createOrder(order)
       .flatMap(o -&gt; {
@@ -1614,8 +1671,9 @@ public Mono&lt;Order&gt; create(@RequestBody Order order) {
 public Flux&lt;Order&gt; getAll() {
     return orderService.getOrders();
 }</code></pre>
-<p>The changes to service will be more involved as we'll have to make use of Spring <em>WebClient</em> to invoke the inventory and shipping reactive endpoints:</p>
-<pre><code class="language-java">public Mono&lt;Order&gt; createOrder(Order order) {
+                            <p>The changes to service will be more involved as we'll have to make use of Spring <em>WebClient</em>
+                                to invoke the inventory and shipping reactive endpoints:</p>
+                            <pre><code class="language-java">public Mono&lt;Order&gt; createOrder(Order order) {
     return Mono.just(order)
       .flatMap(orderRepository::save)
       .flatMap(o -&gt; {
@@ -1662,12 +1720,17 @@ public Flux&lt;Order&gt; getAll() {
 public Flux&lt;Order&gt; getOrders() {
     return orderRepository.findAll();
 }</code></pre>
-<p>This<strong> kind of orchestration with reactive APIs is no easy exercise and often error-prone as well as hard to debug</strong>. We'll see how this can be simplified in the next section.</p>
-<h3 id="bd-4-front-end" data-id="4-front-end">5.4. Front-end</h3>
-<div class="bd-anchor" id="4-front-end"></div>
-<p>Now, that our APIs are capable of streaming events as they occur, it's quite natural that we should be able to leverage that in our front-end as well. Fortunately, Angular supports <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventSource">EventSource</a>, <strong>the interface for Server-Sent Events</strong>.</p>
-<p>Let's see how can we pull and process all our previous orders as a stream of events:</p>
-<pre><code class="language-javascript">getOrderStream() {
+                            <p>This<strong> kind of orchestration with reactive APIs is no easy exercise and often
+                                error-prone as well as hard to debug</strong>. We'll see how this can be simplified in
+                                the next section.</p>
+                            <h3 id="bd-4-front-end" data-id="4-front-end">5.4. Front-end</h3>
+                            <div class="bd-anchor" id="4-front-end"></div>
+                            <p>Now, that our APIs are capable of streaming events as they occur, it's quite natural that
+                                we should be able to leverage that in our front-end as well. Fortunately, Angular
+                                supports <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventSource">EventSource</a>,
+                                <strong>the interface for Server-Sent Events</strong>.</p>
+                            <p>Let's see how can we pull and process all our previous orders as a stream of events:</p>
+                            <pre><code class="language-javascript">getOrderStream() {
     return Observable.create((observer) =&gt; {
         let eventSource = new EventSource(&#039;http://localhost:8080/api/orders&#039;)
         eventSource.onmessage = (event) =&gt; {
@@ -1691,24 +1754,41 @@ public Flux&lt;Order&gt; getOrders() {
         }
     })
 }</code></pre>
-<h2 id="bd-message_driven_architecture" data-id="message_driven_architecture">6. Message-Driven Architecture</h2>
-<div class="bd-anchor" id="message_driven_architecture"></div>
-<p>The first problem we're going to address is related to service-to-service communication. Right now, <strong>these communications are synchronous, which presents several problems</strong>. These include cascading failures, complex orchestration, and distributed transactions to name a few.</p>
-<p>An obvious way to solve this problem is to make these communications asynchronous. A <strong>message broker for facilitating all service-to-service communication</strong> can do the trick for us. We'll use Kafka as our message broker and <a href="/spring-kafka">Spring for Kafka</a> to produce and consume messages:</p>
-<a href="/wp-content/uploads/2020/07/Message-Driven-Architecture.jpg"><img loading="lazy" class="wp-image-83035 aligncenter" src="https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture.jpg" alt="" width="558" height="333" srcset="https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture.jpg 982w, https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture-300x179.jpg 300w, https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture-768x458.jpg 768w, https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture-100x60.jpg 100w" sizes="(max-width: 558px) 100vw, 558px" /></a>
-<p>We'll use a single topic to produce and consume order messages with different order statuses for services to react.</p>
-<p>Let's see how each service needs to change.</p>
-<h3 id="bd-1-inventory-service-1" data-id="1-inventory-service-1">6.1. Inventory Service</h3>
-<div class="bd-anchor" id="1-inventory-service-1"></div>
-<p>Let's begin by defining the message producer for our inventory service:</p>
-<pre><code class="language-java">@Autowired
+                            <h2 id="bd-message_driven_architecture" data-id="message_driven_architecture">6.
+                                Message-Driven Architecture</h2>
+                            <div class="bd-anchor" id="message_driven_architecture"></div>
+                            <p>The first problem we're going to address is related to service-to-service communication.
+                                Right now, <strong>these communications are synchronous, which presents several
+                                    problems</strong>. These include cascading failures, complex orchestration, and
+                                distributed transactions to name a few.</p>
+                            <p>An obvious way to solve this problem is to make these communications asynchronous. A
+                                <strong>message broker for facilitating all service-to-service communication</strong>
+                                can do the trick for us. We'll use Kafka as our message broker and <a
+                                        href="/spring-kafka">Spring for Kafka</a> to produce and consume messages:</p>
+                            <a href="/wp-content/uploads/2020/07/Message-Driven-Architecture.jpg"><img loading="lazy"
+                                                                                                       class="wp-image-83035 aligncenter"
+                                                                                                       src="https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture.jpg"
+                                                                                                       alt=""
+                                                                                                       width="558"
+                                                                                                       height="333"
+                                                                                                       srcset="https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture.jpg 982w, https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture-300x179.jpg 300w, https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture-768x458.jpg 768w, https://www.baeldung.com/wp-content/uploads/2020/07/Message-Driven-Architecture-100x60.jpg 100w"
+                                                                                                       sizes="(max-width: 558px) 100vw, 558px"/></a>
+                            <p>We'll use a single topic to produce and consume order messages with different order
+                                statuses for services to react.</p>
+                            <p>Let's see how each service needs to change.</p>
+                            <h3 id="bd-1-inventory-service-1" data-id="1-inventory-service-1">6.1. Inventory
+                                Service</h3>
+                            <div class="bd-anchor" id="1-inventory-service-1"></div>
+                            <p>Let's begin by defining the message producer for our inventory service:</p>
+                            <pre><code class="language-java">@Autowired
 private KafkaTemplate&lt;String, Order&gt; kafkaTemplate;
 
 public void sendMessage(Order order) {
     this.kafkaTemplate.send(&quot;orders&quot;, order);
 }</code></pre>
-<p>Next, we'll have to define a message consumer for inventory service to react to different messages on the topic:</p>
-<pre><code class="language-java">@KafkaListener(topics = &quot;orders&quot;, groupId = &quot;inventory&quot;)
+                            <p>Next, we'll have to define a message consumer for inventory service to react to different
+                                messages on the topic:</p>
+                            <pre><code class="language-java">@KafkaListener(topics = &quot;orders&quot;, groupId = &quot;inventory&quot;)
 public void consume(Order order) throws IOException {
     if (OrderStatus.RESERVE_INVENTORY.equals(order.getOrderStatus())) {
         productService.handleOrder(order)
@@ -1730,11 +1810,15 @@ public void consume(Order order) throws IOException {
           }).subscribe();
     }
 }</code></pre>
-<p>This also means that we can safely drop some of the redundant endpoints from our controller now. These changes are sufficient to achieve asynchronous communication in our application.</p>
-<h3 id="bd-2-shipping-service-1" data-id="2-shipping-service-1">6.2. Shipping Service</h3>
-<div class="bd-anchor" id="2-shipping-service-1"></div>
-<p>The changes in shipping service are relatively similar to what we did earlier with the inventory service. The message producer is the same, and the message consumer is specific to shipping logic:</p>
-<pre><code class="language-java">@KafkaListener(topics = &quot;orders&quot;, groupId = &quot;shipping&quot;)
+                            <p>This also means that we can safely drop some of the redundant endpoints from our
+                                controller now. These changes are sufficient to achieve asynchronous communication in
+                                our application.</p>
+                            <h3 id="bd-2-shipping-service-1" data-id="2-shipping-service-1">6.2. Shipping Service</h3>
+                            <div class="bd-anchor" id="2-shipping-service-1"></div>
+                            <p>The changes in shipping service are relatively similar to what we did earlier with the
+                                inventory service. The message producer is the same, and the message consumer is
+                                specific to shipping logic:</p>
+                            <pre><code class="language-java">@KafkaListener(topics = &quot;orders&quot;, groupId = &quot;shipping&quot;)
 public void consume(Order order) throws IOException {
     if (OrderStatus.PREPARE_SHIPPING.equals(order.getOrderStatus())) {
         shippingService.handleOrder(order)
@@ -1748,12 +1832,14 @@ public void consume(Order order) throws IOException {
           }).subscribe();
     }
 }</code></pre>
-<p>We can safely drop all the endpoints in our controller now as we no longer need them.</p>
-<h3 id="bd-3-order-service-1" data-id="3-order-service-1">6.3. Order Service</h3>
-<div class="bd-anchor" id="3-order-service-1"></div>
-<p>The changes in order service will be a little more involved as this is where we were doing all the orchestration earlier.</p>
-<p>Nevertheless, the message producer remains unchanged, and message consumer takes on order service-specific logic:</p>
-<pre><code class="language-java">@KafkaListener(topics = &quot;orders&quot;, groupId = &quot;orders&quot;)
+                            <p>We can safely drop all the endpoints in our controller now as we no longer need them.</p>
+                            <h3 id="bd-3-order-service-1" data-id="3-order-service-1">6.3. Order Service</h3>
+                            <div class="bd-anchor" id="3-order-service-1"></div>
+                            <p>The changes in order service will be a little more involved as this is where we were
+                                doing all the orchestration earlier.</p>
+                            <p>Nevertheless, the message producer remains unchanged, and message consumer takes on order
+                                service-specific logic:</p>
+                            <pre><code class="language-java">@KafkaListener(topics = &quot;orders&quot;, groupId = &quot;orders&quot;)
 public void consume(Order order) throws IOException {
     if (OrderStatus.INITIATION_SUCCESS.equals(order.getOrderStatus())) {
         orderRepository.findById(order.getId())
@@ -1792,9 +1878,11 @@ public void consume(Order order) throws IOException {
           .subscribe();
     }
 }</code></pre>
-<p>The <strong>consumer here is merely reacting to order messages with different order statuses</strong>. This is what gives us the choreography between different services.</p>
-<p>Lastly, our order service will also have to change to support this choreography:</p>
-<pre><code class="language-java">public Mono&lt;Order&gt; createOrder(Order order) {
+                            <p>The <strong>consumer here is merely reacting to order messages with different order
+                                statuses</strong>. This is what gives us the choreography between different services.
+                            </p>
+                            <p>Lastly, our order service will also have to change to support this choreography:</p>
+                            <pre><code class="language-java">public Mono&lt;Order&gt; createOrder(Order order) {
     return Mono.just(order)
       .flatMap(orderRepository::save)
       .map(o -&gt; {
@@ -1807,222 +1895,303 @@ public void consume(Order order) throws IOException {
       })
       .flatMap(orderRepository::save);
 }</code></pre>
-<p>Note that this is far simpler than the service we had to write with reactive endpoints in the last section. Asynchronous <strong>choreography often results in far simpler code, although it does come at the cost of eventual consistency and complex debugging and monitoring</strong>. As we may guess, our front-end will no longer get the final status of the order immediately.</p>
-<h2 id="bd-container_orchestration_service" data-id="container_orchestration_service">7. Container Orchestration Service</h2>
-<div class="bd-anchor" id="container_orchestration_service"></div>
-<p>The last piece of the puzzle that we want to solve is related to deployment.</p>
-<p>What we want in the application is ample redundancy and a tendency to scale up or down depending upon the need automatically.</p>
-<p>We've already achieved containerization of services through Docker and are managing dependencies between them through Docker Compose. While these are fantastic tools in their own right, they do not help us to achieve what we want.</p>
-<p>Hence, we <strong>need a container orchestration service that can take care of redundancy and scalability in our application</strong>. While there are several options, one of the popular ones includes Kubernetes. Kubernetes provides us with a cloud vendor-agnostic way to achieve highly scalable deployments of containerized workloads.</p>
-<p><a href="/kubernetes">Kubernetes</a> wraps containers like Docker into Pods, which are the smallest unit of deployment. Further, we can use <a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Deployment</a> to describe the desired state declaratively.</p>
-<p>Deployment creates ReplicaSets, which internally is responsible for bringing up the pods. We can describe a minimum number of identical pods that should be running at any point in time. This provides redundancy and hence high availability.</p>
-<p>Let's see how can we define a Kubernetes deployment for our applications:</p>
-<pre><code class="language-plaintext">apiVersion: apps/v1
+                            <p>Note that this is far simpler than the service we had to write with reactive endpoints in
+                                the last section. Asynchronous <strong>choreography often results in far simpler code,
+                                    although it does come at the cost of eventual consistency and complex debugging and
+                                    monitoring</strong>. As we may guess, our front-end will no longer get the final
+                                status of the order immediately.</p>
+                            <h2 id="bd-container_orchestration_service" data-id="container_orchestration_service">7.
+                                Container Orchestration Service</h2>
+                            <div class="bd-anchor" id="container_orchestration_service"></div>
+                            <p>The last piece of the puzzle that we want to solve is related to deployment.</p>
+                            <p>What we want in the application is ample redundancy and a tendency to scale up or down
+                                depending upon the need automatically.</p>
+                            <p>We've already achieved containerization of services through Docker and are managing
+                                dependencies between them through Docker Compose. While these are fantastic tools in
+                                their own right, they do not help us to achieve what we want.</p>
+                            <p>Hence, we <strong>need a container orchestration service that can take care of redundancy
+                                and scalability in our application</strong>. While there are several options, one of the
+                                popular ones includes Kubernetes. Kubernetes provides us with a cloud vendor-agnostic
+                                way to achieve highly scalable deployments of containerized workloads.</p>
+                            <p><a href="/kubernetes">Kubernetes</a> wraps containers like Docker into Pods, which are
+                                the smallest unit of deployment. Further, we can use <a
+                                        href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Deployment</a>
+                                to describe the desired state declaratively.</p>
+                            <p>Deployment creates ReplicaSets, which internally is responsible for bringing up the pods.
+                                We can describe a minimum number of identical pods that should be running at any point
+                                in time. This provides redundancy and hence high availability.</p>
+                            <p>Let's see how can we define a Kubernetes deployment for our applications:</p>
+                            <pre><code class="language-plaintext">apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: inventory-deployment
-spec: 
+spec:
   replicas: 3
   selector:
     matchLabels:
       name: inventory-deployment
-  template: 
-    metadata: 
-      labels: 
+  template:
+    metadata:
+      labels:
         name: inventory-deployment
-    spec: 
+    spec:
       containers:
       - name: inventory
         image: inventory-service-async:latest
-        ports: 
+        ports:
         - containerPort: 8081
 ---
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: shipping-deployment
-spec: 
+spec:
   replicas: 3
   selector:
     matchLabels:
       name: shipping-deployment
-  template: 
-    metadata: 
-      labels: 
+  template:
+    metadata:
+      labels:
         name: shipping-deployment
-    spec: 
+    spec:
       containers:
       - name: shipping
         image: shipping-service-async:latest
-        ports: 
+        ports:
         - containerPort: 8082
 ---
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: order-deployment
-spec: 
+spec:
   replicas: 3
   selector:
     matchLabels:
       name: order-deployment
-  template: 
-    metadata: 
-      labels: 
+  template:
+    metadata:
+      labels:
         name: order-deployment
-    spec: 
+    spec:
       containers:
       - name: order
         image: order-service-async:latest
-        ports: 
+        ports:
         - containerPort: 8080</code></pre>
-<p>Here we're declaring our deployment to maintain three identical replicas of pods at any time. While this is a good way to add redundancy, it may not be sufficient for varying loads. Kubernetes provides another resource known as the <a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">Horizontal Pod Autoscaler</a> which can <strong>scale the number of pods in a deployment based on observed metrics</strong> like CPU utilization.</p>
-<p>Please note that we have just covered the scalability aspects of the application hosted on a Kubernetes cluster. This does not necessarily imply that the underlying cluster itself is scalable. Creating a high availability Kubernetes cluster is a non-trivial task and beyond the scope of this tutorial.</p>
-<h2 id="bd-resulting_reactive_system" data-id="resulting_reactive_system">8. Resulting Reactive System</h2>
-<div class="bd-anchor" id="resulting_reactive_system"></div>
-<p>Now that we've made several improvements in our architecture, it's perhaps time to evaluate this against the definition of a Reactive System. We'll keep the evaluation against the four characteristics of a Reactive Systems we discussed earlier in the tutorial:</p>
-<ul>
-<li><em>Responsive</em>: The adoption of the reactive programming paradigm should help us achieve end-to-end non-blocking and hence a responsive application</li>
-<li><em>Resilient</em>: Kubernetes deployment with ReplicaSet of the desired number of pods should provide resilience against random failures</li>
-<li><em>Elastic</em>: Kubernetes cluster and resources should provide us the necessary support to be elastic in the face of unpredictable loads</li>
-<li><em>Message-Driven</em>: Having all service-to-service communication handled asynchronously through a Kafka broker should help us here</li>
-</ul>
-<p>While this looks quite promising, it's far from over. To be honest, the <strong>quest for a truly reactive system should be a continuous exercise of improvements</strong>. We can never preempt all that can fail in a highly complex infrastructure, where our application is just a small part.</p>
-<p>A reactive system thus will <strong>demand reliability from every part that makes the whole</strong>. Right from the physical network to infrastructure services like DNS, they all should fall in line to help us achieve the end goal.</p>
-<p>Often, it may not be possible for us to manage and provide the necessary guarantees for all these parts. And this is where <strong>a managed cloud infrastructure helps alleviate our pain</strong>. We can choose from a host of services like IaaS (Infeastrure-as-a-Service), BaaS (Backend-as-a-Service), and PaaS (Platform-as-a-Service) to delegate the responsibilities to external parties. This leaves us with the responsibility of our application as far as possible.</p>
-<h2 id="bd-conclusion" data-id="conclusion">9. Conclusion</h2>
-<div class="bd-anchor" id="conclusion"></div>
-<p>In this tutorial, we went through the basics of reactive systems and how does it compare with reactive programming. We created a simple application with multiple microservices and highlighted the problems we intend to solve with a reactive system.</p>
-<p>Further, we went ahead, introducing reactive programming, message-based architecture, and container orchestration service in the architecture to realize a reactive system.</p>
-<p>Lastly, we discussed the resulting architecture and how it remains a journey towards the reactive system! This tutorial does not introduce us to all the tools, frameworks, or patterns which can help us create a reactive system, but it introduces us to the journey.</p>
-<p>As usual, the source code for this article can be found <a href="https://github.com/eugenp/tutorials/tree/master/reactive-systems">over on GitHub</a>.</p>
-<div class='after-post-widgets'><div data-sticky-weight="1" data-event-label-on-display="BF-2022" data-height-limit="0" data-stickyness="sticky" class="after-post-content-widget"><span style="display:none;">November Discount Launch 2022 &#8211; Bottom</span> <div class="textwidget"><div class="short_box short_end">
-We’re finally running a Black Friday launch. All Courses are <strong>30% off</strong> until <strong>December 2nd:</strong>
-<h3><strong><a href="/all-courses">&gt;&gt; GET ACCESS NOW</a></strong></h3>
-</div></div>
-</div></div><div data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky" class="widget_text after-post-banner-widget"><span style="display:none;">Generic footer banner</span><div class="textwidget custom-html-widget"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html><body><div class="footer-html-banner">
-<img class="" width="800" height="360" src="/wp-content/uploads/2016/05/baeldung-rest-post-footer-main-1.2.0.jpg" alt="Build your API with SPRING - book cover" loading="lazy">
-<div class="header-row">
-<div class="image-col">
-<img class="" width="300" height="300" src="/wp-content/uploads/2016/05/baeldung-rest-post-footer-icn-1.0.0.png" alt="Build your API with SPRING - icon" loading="lazy">
-</div>
-<div class="text-col">
-<div>Learning to build your API<br><strong>with Spring</strong>?</div>
-<a class="optin" href="/rest-api-spring-guide"><span class="optin-button">Download the E-book</span></a>
-</div>
-</div>
-</div><script defer src="https://www.baeldung.com/wp-content/cache/autoptimize/1/js/autoptimize_5569bb13ae0c5598c139bb50d2bc3914.js"></script></body></html>
-</div></div>
-</section> 
-</article> 
-<div class="wpdiscuz_top_clearing"></div>
-<div id='comments' class='comments-area'><div id='respond' style='width: 0;height: 0;clear: both;margin: 0;padding: 0;'></div> <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-1 wpd-comments-closed">
-<div id="wpd-threads" class="wpd-thread-wrapper">
-<div class="wpd-thread-head">
-<div class="wpd-thread-info " data-comments-count="3">
-<span class='wpdtc' title='3'>3</span> Comments </div>
-<div class="wpd-space"></div>
-<div class="wpd-thread-filter">
-<div class="wpd-filter wpdf-reacted wpd_not_clicked" wpd-tooltip="Most reacted comment"><i class="fas fa-bolt"></i></div>
-<div class="wpd-filter wpdf-hottest wpd_not_clicked" wpd-tooltip="Hottest comment thread"><i class="fas fa-fire"></i></div>
-<div class="wpd-filter wpdf-sorting">
-<span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc wpdiscuz-sort-button-active" data-sorting="oldest">Oldest</span>
-<i class="fas fa-sort-down"></i>
-<div class="wpdiscuz-sort-buttons">
-<span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc" data-sorting="newest">Newest</span>
- </div>
-</div>
-</div>
-</div>
-<div class="wpd-comment-info-bar">
-<div class="wpd-current-view"><i class="fas fa-quote-left"></i> Inline Feedbacks</div>
-<div class="wpd-filter-view-all">View all comments</div>
-</div>
-<div class="wpd-thread-list">
-<div class="wpd-load-more-submit-wrap">
-<button name="submit" class="wpd-load-comments wpd-prim-button">
-View Comments </button>
-</div>
-<div class="wpdiscuz-comment-pagination" style='display:none;'>
-<div class="wpd-load-more-submit-wrap">
-<button name="submit" data-lastparentid="0" class="wpd-load-more-submit wpd-loaded wpd-prim-button">
-Load More Comments </button>
-</div>
-<span id="wpdiscuzHasMoreComments" data-is_show_load_more="0"></span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="wpdiscuz-loading-bar" class="wpdiscuz-loading-bar-unauth"></div>
-<div id="wpdiscuz-comment-message" class="wpdiscuz-comment-message-unauth"></div>
-<ul style="list-style-type: none;"></li>
-</ul>
-<span>Comments are closed on this article!</span>
-</div> 
+                            <p>Here we're declaring our deployment to maintain three identical replicas of pods at any
+                                time. While this is a good way to add redundancy, it may not be sufficient for varying
+                                loads. Kubernetes provides another resource known as the <a
+                                        href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">Horizontal
+                                    Pod Autoscaler</a> which can <strong>scale the number of pods in a deployment based
+                                    on observed metrics</strong> like CPU utilization.</p>
+                            <p>Please note that we have just covered the scalability aspects of the application hosted
+                                on a Kubernetes cluster. This does not necessarily imply that the underlying cluster
+                                itself is scalable. Creating a high availability Kubernetes cluster is a non-trivial
+                                task and beyond the scope of this tutorial.</p>
+                            <h2 id="bd-resulting_reactive_system" data-id="resulting_reactive_system">8. Resulting
+                                Reactive System</h2>
+                            <div class="bd-anchor" id="resulting_reactive_system"></div>
+                            <p>Now that we've made several improvements in our architecture, it's perhaps time to
+                                evaluate this against the definition of a Reactive System. We'll keep the evaluation
+                                against the four characteristics of a Reactive Systems we discussed earlier in the
+                                tutorial:</p>
+                            <ul>
+                                <li><em>Responsive</em>: The adoption of the reactive programming paradigm should help
+                                    us achieve end-to-end non-blocking and hence a responsive application
+                                </li>
+                                <li><em>Resilient</em>: Kubernetes deployment with ReplicaSet of the desired number of
+                                    pods should provide resilience against random failures
+                                </li>
+                                <li><em>Elastic</em>: Kubernetes cluster and resources should provide us the necessary
+                                    support to be elastic in the face of unpredictable loads
+                                </li>
+                                <li><em>Message-Driven</em>: Having all service-to-service communication handled
+                                    asynchronously through a Kafka broker should help us here
+                                </li>
+                            </ul>
+                            <p>While this looks quite promising, it's far from over. To be honest, the <strong>quest for
+                                a truly reactive system should be a continuous exercise of improvements</strong>. We can
+                                never preempt all that can fail in a highly complex infrastructure, where our
+                                application is just a small part.</p>
+                            <p>A reactive system thus will <strong>demand reliability from every part that makes the
+                                whole</strong>. Right from the physical network to infrastructure services like DNS,
+                                they all should fall in line to help us achieve the end goal.</p>
+                            <p>Often, it may not be possible for us to manage and provide the necessary guarantees for
+                                all these parts. And this is where <strong>a managed cloud infrastructure helps
+                                    alleviate our pain</strong>. We can choose from a host of services like IaaS
+                                (Infeastrure-as-a-Service), BaaS (Backend-as-a-Service), and PaaS
+                                (Platform-as-a-Service) to delegate the responsibilities to external parties. This
+                                leaves us with the responsibility of our application as far as possible.</p>
+                            <h2 id="bd-conclusion" data-id="conclusion">9. Conclusion</h2>
+                            <div class="bd-anchor" id="conclusion"></div>
+                            <p>In this tutorial, we went through the basics of reactive systems and how does it compare
+                                with reactive programming. We created a simple application with multiple microservices
+                                and highlighted the problems we intend to solve with a reactive system.</p>
+                            <p>Further, we went ahead, introducing reactive programming, message-based architecture, and
+                                container orchestration service in the architecture to realize a reactive system.</p>
+                            <p>Lastly, we discussed the resulting architecture and how it remains a journey towards the
+                                reactive system! This tutorial does not introduce us to all the tools, frameworks, or
+                                patterns which can help us create a reactive system, but it introduces us to the
+                                journey.</p>
+                            <p>As usual, the source code for this article can be found <a
+                                    href="https://github.com/eugenp/tutorials/tree/master/reactive-systems">over on
+                                GitHub</a>.</p>
+
+                            <div data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky"
+                                 class="widget_text after-post-banner-widget"><span style="display:none;">Generic footer banner</span>
+                                <div class="textwidget custom-html-widget"><!DOCTYPE html PUBLIC
+                                    "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+                                    <html>
+                                    <body>
+
+                                    <script defer
+                                            src="https://www.baeldung.com/wp-content/cache/autoptimize/1/js/autoptimize_5569bb13ae0c5598c139bb50d2bc3914.js"></script>
+                                    </body>
+                                    </html>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <div class="wpdiscuz_top_clearing"></div>
+
+                    <div id="wpdiscuz-loading-bar" class="wpdiscuz-loading-bar-unauth"></div>
+                    <div id="wpdiscuz-comment-message" class="wpdiscuz-comment-message-unauth"></div>
+                    <ul style="list-style-type: none;"></li>
+                    </ul>
+                    <span>Comments are closed on this article!</span>
+                </div>
 
 
+            </div>
+        </div>
+    </div>
 </div>
-</div> 
-</div> 
-</div> 
 <footer id="footer" class="content-info" role="contentinfo">
-<div class="container">
-<div>
-<div class="column-wrapper row">
-<div class="logo-desktop">
-<img src="https://www.baeldung.com/wp-content/themes/baeldung/icon/logo.svg" style="width:180px;height:40px" alt="The Baeldung logo">
+    <div class="container">
+        <div>
+            <div class="column-wrapper row">
+                <div class="logo-desktop">
+                    <img src="https://www.baeldung.com/wp-content/themes/baeldung/icon/logo.svg"
+                         style="width:180px;height:40px" alt="The Baeldung logo">
+                </div>
+                <div class="widgets">
+                    <div id="nav_menu-5" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky"
+                         class="widget widget_nav_menu"><h4 class="widgettitle">Courses</h4>
+                        <ul id="menu-courses" class="menu">
+                            <li class="no-interstitial-ads menu-all-courses"><a href="/all-courses"
+                                                                                data-google-interstitial="false">All
+                                Courses</a></li>
+                            <li class="no-interstitial-ads menu-all-bulk-courses"><a href="/all-bulk-courses"
+                                                                                     data-google-interstitial="false">All
+                                Bulk Courses</a></li>
+                            <li class="no-interstitial-ads menu-all-bulk-team-courses"><a href="/all-bulk-team-courses"
+                                                                                          data-google-interstitial="false">All
+                                Bulk Team Courses</a></li>
+                            <li class="no-interstitial-ads menu-the-courses-platform"><a
+                                    href="https://courses.baeldung.com" data-google-interstitial="false">The Courses
+                                Platform</a></li>
+                        </ul>
+                    </div>
+                    <div id="nav_menu-6" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky"
+                         class="widget widget_nav_menu"><h4 class="widgettitle">Series</h4>
+                        <ul id="menu-series" class="menu">
+                            <li class="menu-java-back-to-basics-tutorial"><a href="/java-tutorial">Java &#8220;Back to
+                                Basics&#8221; Tutorial</a></li>
+                            <li class="menu-jackson-json-tutorial"><a href="/jackson">Jackson JSON Tutorial</a></li>
+                            <li class="menu-apache-httpclient-tutorial"><a href="/httpclient-guide">Apache HttpClient
+                                Tutorial</a></li>
+                            <li class="menu-rest-with-spring-tutorial"><a href="/rest-with-spring-series">REST with
+                                Spring Tutorial</a></li>
+                            <li class="menu-spring-persistence-tutorial"><a href="/persistence-with-spring-series">Spring
+                                Persistence Tutorial</a></li>
+                            <li class="menu-security-with-spring"><a href="/security-spring">Security with Spring</a>
+                            </li>
+                            <li class="menu-spring-reactive-tutorials"><a href="/spring-reactive-guide">Spring Reactive
+                                Tutorials</a></li>
+                        </ul>
+                    </div>
+                    <div id="nav_menu-7" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky"
+                         class="widget widget_nav_menu"><h4 class="widgettitle">About</h4>
+                        <ul id="menu-about" class="menu">
+                            <li class="no-interstitial-ads menu-about-baeldung"><a href="/about"
+                                                                                   data-google-interstitial="false">About
+                                Baeldung</a></li>
+                            <li class="no-interstitial-ads menu-the-full-archive"><a href="/full_archive"
+                                                                                     data-google-interstitial="false">The
+                                Full Archive</a></li>
+                            <li class="no-interstitial-ads menu-editors"><a href="/editors"
+                                                                            data-google-interstitial="false">Editors</a>
+                            </li>
+                            <li class="no-interstitial-ads menu-jobs"><a href="/tag/active-job/"
+                                                                         data-google-interstitial="false">Jobs</a></li>
+                            <li class="no-interstitial-ads menu-our-partners"><a href="/partners"
+                                                                                 data-google-interstitial="false">Our
+                                Partners</a></li>
+                            <li class="no-interstitial-ads menu-partner-with-baeldung"><a href="/advertise"
+                                                                                          data-google-interstitial="false">Partner
+                                with Baeldung</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="stacked-rows">
+                    <div id="nav_menu-8" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky"
+                         class="widget widget_nav_menu">
+                        <ul id="menu-terms" class="menu">
+                            <li class="no-interstitial-ads menu-terms-of-service"><a rel="nofollow"
+                                                                                     href="/terms-of-service"
+                                                                                     data-google-interstitial="false">Terms
+                                of Service</a></li>
+                            <li class="no-interstitial-ads menu-privacy-policy"><a rel="nofollow" href="/privacy-policy"
+                                                                                   data-google-interstitial="false">Privacy
+                                Policy</a></li>
+                            <li class="no-interstitial-ads menu-company-info"><a rel="nofollow"
+                                                                                 href="/baeldung-company-info"
+                                                                                 data-google-interstitial="false">Company
+                                Info</a></li>
+                            <li class="no-interstitial-ads menu-contact"><a rel="nofollow" href="/contact"
+                                                                            data-google-interstitial="false">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo-mobile">
+                    <img src="https://www.baeldung.com/wp-content/themes/baeldung/icon/whiteleaf.svg"
+                         style="width:50px;height:50px" alt="The Baeldung Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </div>
-<div class="widgets">
-<div id="nav_menu-5" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky" class="widget widget_nav_menu"><h4 class="widgettitle">Courses</h4><ul id="menu-courses" class="menu"><li class="no-interstitial-ads menu-all-courses"><a href="/all-courses" data-google-interstitial="false">All Courses</a></li>
-<li class="no-interstitial-ads menu-all-bulk-courses"><a href="/all-bulk-courses" data-google-interstitial="false">All Bulk Courses</a></li>
-<li class="no-interstitial-ads menu-all-bulk-team-courses"><a href="/all-bulk-team-courses" data-google-interstitial="false">All Bulk Team Courses</a></li>
-<li class="no-interstitial-ads menu-the-courses-platform"><a href="https://courses.baeldung.com" data-google-interstitial="false">The Courses Platform</a></li>
-</ul></div><div id="nav_menu-6" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky" class="widget widget_nav_menu"><h4 class="widgettitle">Series</h4><ul id="menu-series" class="menu"><li class="menu-java-back-to-basics-tutorial"><a href="/java-tutorial">Java &#8220;Back to Basics&#8221; Tutorial</a></li>
-<li class="menu-jackson-json-tutorial"><a href="/jackson">Jackson JSON Tutorial</a></li>
-<li class="menu-apache-httpclient-tutorial"><a href="/httpclient-guide">Apache HttpClient Tutorial</a></li>
-<li class="menu-rest-with-spring-tutorial"><a href="/rest-with-spring-series">REST with Spring Tutorial</a></li>
-<li class="menu-spring-persistence-tutorial"><a href="/persistence-with-spring-series">Spring Persistence Tutorial</a></li>
-<li class="menu-security-with-spring"><a href="/security-spring">Security with Spring</a></li>
-<li class="menu-spring-reactive-tutorials"><a href="/spring-reactive-guide">Spring Reactive Tutorials</a></li>
-</ul></div><div id="nav_menu-7" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky" class="widget widget_nav_menu"><h4 class="widgettitle">About</h4><ul id="menu-about" class="menu"><li class="no-interstitial-ads menu-about-baeldung"><a href="/about" data-google-interstitial="false">About Baeldung</a></li>
-<li class="no-interstitial-ads menu-the-full-archive"><a href="/full_archive" data-google-interstitial="false">The Full Archive</a></li>
-<li class="no-interstitial-ads menu-editors"><a href="/editors" data-google-interstitial="false">Editors</a></li>
-<li class="no-interstitial-ads menu-jobs"><a href="/tag/active-job/" data-google-interstitial="false">Jobs</a></li>
-<li class="no-interstitial-ads menu-our-partners"><a href="/partners" data-google-interstitial="false">Our Partners</a></li>
-<li class="no-interstitial-ads menu-partner-with-baeldung"><a href="/advertise" data-google-interstitial="false">Partner with Baeldung</a></li>
-</ul></div> </div>
-<div class="stacked-rows">
-<div id="nav_menu-8" data-sticky-weight="1" data-height-limit="0" data-stickyness="sticky" class="widget widget_nav_menu"><ul id="menu-terms" class="menu"><li class="no-interstitial-ads menu-terms-of-service"><a rel="nofollow" href="/terms-of-service" data-google-interstitial="false">Terms of Service</a></li>
-<li class="no-interstitial-ads menu-privacy-policy"><a rel="nofollow" href="/privacy-policy" data-google-interstitial="false">Privacy Policy</a></li>
-<li class="no-interstitial-ads menu-company-info"><a rel="nofollow" href="/baeldung-company-info" data-google-interstitial="false">Company Info</a></li>
-<li class="no-interstitial-ads menu-contact"><a rel="nofollow" href="/contact" data-google-interstitial="false">Contact</a></li>
-</ul></div> </div>
-<div class="logo-mobile">
-<img src="https://www.baeldung.com/wp-content/themes/baeldung/icon/whiteleaf.svg" style="width:50px;height:50px" alt="The Baeldung Logo">
-</div>
-</div> 
-</div> 
-</div> 
-</footer> 
-</div> 
 <script>
 /* <![CDATA[ */
 var series_data=[];
 /* ]]> */
+
 </script>
-<a href='javascript:void(0);' id='wpdUserContentInfoAnchor' style='display:none;' rel='#wpdUserContentInfo' data-wpd-lity>wpDiscuz</a><div id='wpdUserContentInfo' style='overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;' class='lity-hide'></div><div id='wpd-editor-source-code-wrapper-bg'></div><div id='wpd-editor-source-code-wrapper'><textarea id='wpd-editor-source-code'></textarea><button id='wpd-insert-source-code'>Insert</button><input type='hidden' id='wpd-editor-uid' /></div>
+<a href='javascript:void(0);' id='wpdUserContentInfoAnchor' style='display:none;' rel='#wpdUserContentInfo'
+   data-wpd-lity>wpDiscuz</a>
+<div id='wpdUserContentInfo'
+     style='overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;'
+     class='lity-hide'></div>
+<div id='wpd-editor-source-code-wrapper-bg'></div>
+<div id='wpd-editor-source-code-wrapper'><textarea id='wpd-editor-source-code'></textarea>
+    <button id='wpd-insert-source-code'>Insert</button>
+    <input type='hidden' id='wpd-editor-uid'/></div>
 <script>
 /* <![CDATA[ */
 var fr_data=[];
 /* ]]> */
+
 </script>
 <script> 
 /* <![CDATA[ */
 var ba_cats=["Architecture","Reactive"];
 var ba_tags=[];
 /* ]]> */
+
 </script>
 
 
@@ -2038,6 +2207,7 @@ var ba_tags=[];
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(dc, s);
   })();
+
 </script>
 
 
@@ -2045,10 +2215,14 @@ var ba_tags=[];
 /* <![CDATA[ */
 var wpcf7 = {"api":{"root":"https:\/\/www.baeldung.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
 /* ]]> */
+
 </script>
-<script type='text/javascript' src='https://www.baeldung.com/wp-content/plugins/prismatic/lib/highlight/js/highlight-core.js?ver=3.2.2' id='prismatic-highlight-js'></script>
+<script type='text/javascript'
+        src='https://www.baeldung.com/wp-content/plugins/prismatic/lib/highlight/js/highlight-core.js?ver=3.2.2'
+        id='prismatic-highlight-js'></script>
 <script type='text/javascript' id='prismatic-highlight-js-after'>
 hljs.initHighlightingOnLoad();	
+
 
 
 </script>
@@ -2057,6 +2231,7 @@ hljs.initHighlightingOnLoad();
 var wpdiscuzAjaxObj = {"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_comment_edit_not_possible":"Sorry, this comment is no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_spoiler_title":"Spoiler Title","wc_cannot_rate_again":"You cannot rate again","wc_not_allowed_to_rate":"You're not allowed to rate here","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":"","commentListLoadType":"2","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":"0","replyTextMaxLength":"0","commentTextMinLength":"1","replyTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"1","enableFbLogin":"0","fbUseOAuth2":"0","enableFbShare":"0","facebookAppID":"","facebookUseOAuth2":"0","enableGoogleLogin":"0","googleClientID":"","googleClientSecret":"","cookiehash":"a34c852e1dd1d0144a7b417a249fed8d","isLoadOnlyParentComments":"0","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","enableBubble":"0","bubbleLiveUpdate":"0","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleShowNewCommentMessage":"1","bubbleLocation":"content_left","firstLoadWithAjax":"2","wc_copied_to_clipboard":"Copied to clipboard!","inlineFeedbackAttractionType":"blink","loadRichEditor":"1","wpDiscuzReCaptchaSK":"","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","wpDiscuzIsShowOnSubscribeForm":"0","wmuEnabled":"1","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"2097152","wmuPostMaxSize":"104857600","wmuIsLightbox":"1","wmuMimeTypes":{"jpg|jpeg|jpe":"image\/jpeg","gif":"image\/gif","png":"image\/png","bmp":"image\/bmp","tiff|tif":"image\/tiff","ico":"image\/x-icon"},"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Not allowed file type","wmuPhraseMaxFileCount":"Maximum number of uploaded files is 1","wmuPhraseMaxFileSize":"Maximum upload file size is 2MB","wmuPhrasePostMaxSize":"Maximum post size is 100MB","wmuPhraseDoingUpload":"Uploading in progress! Please wait.","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"Post ID not exists","msgUploadingNotAllowed":"Sorry, uploading not allowed for this post","msgPermissionDenied":"You do not have sufficient permissions to perform this action","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","version":"7.5","wc_post_id":"83032","isCookiesEnabled":"1","loadLastCommentId":"0","dataFilterCallbacks":[],"phraseFilters":[],"scrollSize":"32","is_email_field_required":"1","url":"https:\/\/www.baeldung.com\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/www.baeldung.com\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","bubbleUpdateUrl":"https:\/\/www.baeldung.com\/wp-json\/wpdiscuz\/v1\/update","restNonce":"42f3449a04","validateNonceForGuests":""};
 var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?","additionalTab":"0"};
 /* ]]> */
+
 </script>
 <script type='text/javascript' id='wpdiscuz-combo-js-js-before'>
         var wpdiscuzEditorOptions = {
@@ -2076,12 +2251,14 @@ var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete 
         debug: 'error'
         };
         
+
 </script>
 <script type='text/javascript' id='wpbs-js-js-extra'>
 /* <![CDATA[ */
 var geolocTargetingData = {"gtagDebug":"","apiUrl":"https:\/\/www.baeldung.com\/api\/country-code\/"};
 var ajaxUrl = "https:\/\/www.baeldung.com\/wp-admin\/admin-ajax.php";
 /* ]]> */
+
 </script>
 <script type='text/javascript' id='vivus-js-after'>
 function svginit_veggieBurger() {
@@ -2539,12 +2716,14 @@ AboutBaeldungSvg.reset().play();
 					
           document.addEventListener("ready-to-animate-svg", svginit_Search);
         
+
 </script>
 <script type='text/javascript' id='fvp-scripts-js-extra'>
 /* <![CDATA[ */
 var geolocTargetingData = {"gtagDebug":"","apiUrl":"https:\/\/www.baeldung.com\/api\/country-code\/"};
 var ajaxUrl = "https:\/\/www.baeldung.com\/wp-admin\/admin-ajax.php";
 /* ]]> */
+
 </script>
 </body>
 </html>

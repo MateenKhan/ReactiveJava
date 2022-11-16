@@ -1,4 +1,4 @@
-package org.example;
+package org.example.nonreactive.pojo;
 
 public class PostRequest {
     private String topic;

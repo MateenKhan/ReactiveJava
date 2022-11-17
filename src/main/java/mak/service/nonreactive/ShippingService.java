@@ -6,6 +6,7 @@ import lombok.experimental.FieldDefaults;
 import mak.pojo.Order;
 import mak.pojo.Shipment;
 import mak.repository.ShipmentRepository;
+import mak.util.Utility;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -19,6 +20,7 @@ public class ShippingService {
     ShipmentRepository shipmentRepository;
 
     public Order handleOrder(Order order) {
+        Utility.sleep();
         LocalDate shippingDate = null;
         if (LocalTime.now().isAfter(LocalTime.parse("10:00"))
                 && LocalTime.now().isBefore(LocalTime.parse("18:00"))) {

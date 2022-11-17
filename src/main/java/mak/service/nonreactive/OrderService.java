@@ -22,7 +22,7 @@ public class OrderService {
         boolean success = true;
         Order savedOrder = orderRepository.save(order);
         try {
-            inventoryService.handleOrder(order);
+            inventoryService.createOrder(order);
         } catch (Exception ex) {
             success = false;
         }

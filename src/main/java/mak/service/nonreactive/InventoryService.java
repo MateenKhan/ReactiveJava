@@ -22,7 +22,7 @@ public class InventoryService {
         return productRepository.findAll();
     }
 
-    public Order handleOrder(Order order) {
+    public Order createOrder(Order order) {
         Utility.sleep();
         order.getProducts()
                 .forEach(products -> {

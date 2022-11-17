@@ -3,12 +3,11 @@ package mak.controller;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import mak.pojo.Order;
 import mak.pojo.Product;
-import mak.service.nonreactive.InventoryService;
+import mak.repository.ProductRepository;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import javax.websocket.server.PathParam;
 
 @RestController
 @RequestMapping("product")
@@ -16,20 +15,11 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class ProductController {
 
-    InventoryService inventoryService;
-
-    @GetMapping
-    public List<Product> getAllProducts() {
-        return inventoryService.getProducts();
-    }
+    ProductRepository productRepository;
 
     @PostMapping
-    public Order processOrder(@RequestBody Order order) {
-        return inventoryService.handleOrder(order);
+    public Product createProduct(@RequestBody Product product) {
+        return productRepository.save(product);
     }
 
-    @DeleteMapping
-    public Order revertOrder(@RequestBody Order order) {
-        return inventoryService.revertOrder(order);
-    }
 }

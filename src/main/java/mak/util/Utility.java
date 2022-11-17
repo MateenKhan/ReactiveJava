@@ -1,4 +1,4 @@
-package org.example.util;
+package mak.util;
 
 public class Utility {
 

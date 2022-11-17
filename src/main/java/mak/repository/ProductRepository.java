@@ -1,6 +1,6 @@
-package org.example.repo;
+package mak.repository;
 
-import org.example.pojo.Product;
+import mak.pojo.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

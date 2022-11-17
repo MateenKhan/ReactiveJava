@@ -1,10 +1,12 @@
-package org.example.pojo;
+package mak.pojo;
 
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
@@ -13,6 +15,8 @@ import javax.persistence.Id;
 public class Product {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     Integer productId;
+    String productName;
     Integer stock,quantity;
 }

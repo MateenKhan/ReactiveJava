@@ -1,4 +1,4 @@
-package org.example.pojo;
+package mak.pojo;
 
 public class PostRequest {
     private String topic;

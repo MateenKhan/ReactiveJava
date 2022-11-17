@@ -1,4 +1,4 @@
-package org.example.config;
+package mak.config;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
@@ -26,7 +26,7 @@ public class SwaggerConfig {
                         .description("Swagger Description details")
                         .version("1.0").build())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("org.example.controller"))
+                .apis(RequestHandlerSelectors.basePackage("mak.controller"))
                 .paths(PathSelectors.any()).build();
     }
 }

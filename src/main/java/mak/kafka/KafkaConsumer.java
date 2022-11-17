@@ -1,4 +1,4 @@
-package org.example.kafka;
+package mak.kafka;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.support.KafkaHeaders;

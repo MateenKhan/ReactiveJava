@@ -1,6 +1,6 @@
-package org.example.controller;
+package mak.controller;
 
-import org.example.pojo.PostRequest;
+import mak.pojo.PostRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,12 +1,12 @@
-package org.example.service.nonreactive;
+package mak.service.nonreactive;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.example.pojo.Order;
-import org.example.pojo.Product;
-import org.example.repo.ProductRepository;
-import org.example.util.Utility;
+import mak.repository.ProductRepository;
+import mak.pojo.Order;
+import mak.pojo.Product;
+import mak.util.Utility;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
 @Service
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ProductService {
+public class InventoryService {
 
     ProductRepository productRepository;
 
@@ -24,15 +24,15 @@ public class ProductService {
 
     public Order handleOrder(Order order) {
         Utility.sleep();
-        order.getLineItems()
-                .forEach(l -> {
-                    Product p = productRepository.findById(l.getProductId())
-                            .orElseThrow(() -> new RuntimeException("Could not find the product: " + l.getProductId()));
-                    if (p.getStock() >= l.getQuantity()) {
-                        p.setStock(p.getStock() - l.getQuantity());
-                        productRepository.save(p);
+        order.getProducts()
+                .forEach(products -> {
+                    Product product  = productRepository.findById(products.getProductId())
+                            .orElseThrow(() -> new RuntimeException("Could not find the product: " + products.getProductId()));
+                    if (product.getStock() >= products.getQuantity()) {
+                        product.setStock(product.getStock() - products.getQuantity());
+                        productRepository.save(product);
                     } else {
-                        throw new RuntimeException("Product is out of stock: " + l.getProductId());
+                        throw new RuntimeException("Product is out of stock: " + products.getProductId());
                     }
                 });
         order.setOrderStatus("SUCCESS");
@@ -41,7 +41,7 @@ public class ProductService {
 
     public Order revertOrder(Order order) {
         Utility.sleep();
-        order.getLineItems()
+        order.getProducts()
                 .forEach(l -> {
                     Product p = productRepository.findById(l.getProductId())
                             .orElseThrow(() -> new RuntimeException("Could not find the product: " + l.getProductId()));
